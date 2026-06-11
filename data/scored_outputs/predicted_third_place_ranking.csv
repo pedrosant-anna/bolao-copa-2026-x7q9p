@@ -1,0 +1,25 @@
+participant,position,team,group,qualified
+Gustavo,1,Japan,F,1
+Gustavo,2,Ecuador,E,1
+Gustavo,3,South Korea,A,1
+Gustavo,4,Paraguay,D,1
+Gustavo,5,Bosnia and Herzegovina,B,1
+Gustavo,6,Senegal,I,1
+Gustavo,7,Algeria,J,1
+Gustavo,8,Saudi Arabia,H,1
+Gustavo,9,Ghana,L,0
+Gustavo,10,Scotland,C,0
+Gustavo,11,Uzbekistan,K,0
+Gustavo,12,Iran,G,0
+Pedro,1,United States,D,1
+Pedro,2,Ivory Coast,E,1
+Pedro,3,Senegal,I,1
+Pedro,4,Czechia,A,1
+Pedro,5,Tunisia,F,1
+Pedro,6,Saudi Arabia,H,1
+Pedro,7,Bosnia and Herzegovina,B,1
+Pedro,8,Ghana,L,1
+Pedro,9,Algeria,J,0
+Pedro,10,Scotland,C,0
+Pedro,11,Iran,G,0
+Pedro,12,Congo DR,K,0

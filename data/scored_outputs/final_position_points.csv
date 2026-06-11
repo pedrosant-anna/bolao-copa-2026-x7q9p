@@ -1,0 +1,3 @@
+participant,predicted_champion,predicted_runner_up,predicted_third_place,actual_champion,actual_runner_up,actual_third_place,champion_points,runner_up_points,third_place_points,position_points
+Gustavo,Brazil,France,Spain,NA,NA,NA,NA,NA,NA,NA
+Pedro,Spain,France,Brazil,NA,NA,NA,NA,NA,NA,NA

@@ -1,0 +1,105 @@
+match_id,source_match_id,source,stage,group,date,time,venue,stadium_name,city,country,team1,team2,team1_goals,team2_goals,advance_team,status,played
+1,NA,fake,Group Stage,A,2026-06-11,15:00:00,Mexico City Stadium,Estadio Banorte,Mexico City,Mexico,Mexico,South Africa,2,0,NA,FAKE_FINISHED,TRUE
+2,NA,fake,Group Stage,A,2026-06-11,22:00:00,Guadalajara Stadium,Estadio Akron,Zapopan,Mexico,South Korea,Czechia,1,0,NA,FAKE_FINISHED,TRUE
+3,NA,fake,Group Stage,B,2026-06-12,15:00:00,Toronto Stadium,BMO Field,Toronto,Canada,Canada,Bosnia and Herzegovina,0,2,NA,FAKE_FINISHED,TRUE
+4,NA,fake,Group Stage,D,2026-06-12,21:00:00,Los Angeles Stadium,SoFi Stadium,"Inglewood, California",United States,United States,Paraguay,1,1,NA,FAKE_FINISHED,TRUE
+5,NA,fake,Group Stage,B,2026-06-13,15:00:00,San Francisco Bay Stadium,Levi's Stadium,"Santa Clara, California",United States,Qatar,Switzerland,1,1,NA,FAKE_FINISHED,TRUE
+6,NA,fake,Group Stage,C,2026-06-13,18:00:00,New York New Jersey Stadium,MetLife Stadium,"East Rutherford, New Jersey",United States,Brazil,Morocco,0,1,NA,FAKE_FINISHED,TRUE
+7,NA,fake,Group Stage,C,2026-06-13,21:00:00,Boston Stadium,Gillette Stadium,"Foxborough, Massachusetts",United States,Haiti,Scotland,1,1,NA,FAKE_FINISHED,TRUE
+8,NA,fake,Group Stage,D,2026-06-13,00:00:00,BC Place,BC Place,Vancouver,Canada,Australia,Türkiye,3,3,NA,FAKE_FINISHED,TRUE
+9,NA,fake,Group Stage,E,2026-06-14,13:00:00,Houston Stadium,NRG Stadium,"Houston, Texas",United States,Germany,Curaçao,0,0,NA,FAKE_FINISHED,TRUE
+10,NA,fake,Group Stage,F,2026-06-14,16:00:00,Dallas Stadium,AT&T Stadium,"Arlington, Texas",United States,Netherlands,Japan,1,1,NA,FAKE_FINISHED,TRUE
+11,NA,fake,Group Stage,E,2026-06-14,19:00:00,Philadelphia Stadium,Lincoln Financial Field,"Philadelphia, Pennsylvania",United States,Ivory Coast,Ecuador,0,0,NA,FAKE_FINISHED,TRUE
+12,NA,fake,Group Stage,F,2026-06-14,22:00:00,Monterrey Stadium,Estadio BBVA,Guadalupe,Mexico,Tunisia,Sweden,2,0,NA,FAKE_FINISHED,TRUE
+13,NA,fake,Group Stage,H,2026-06-15,12:00:00,Atlanta Stadium,Mercedes-Benz Stadium,"Atlanta, Georgia",United States,Spain,Cape Verde,0,1,NA,FAKE_FINISHED,TRUE
+14,NA,fake,Group Stage,G,2026-06-15,15:00:00,Seattle Stadium,Lumen Field,"Seattle, Washington",United States,Belgium,Egypt,3,0,NA,FAKE_FINISHED,TRUE
+15,NA,fake,Group Stage,H,2026-06-15,18:00:00,Miami Stadium,Hard Rock Stadium,"Miami Gardens, Florida",United States,Saudi Arabia,Uruguay,0,0,NA,FAKE_FINISHED,TRUE
+16,NA,fake,Group Stage,G,2026-06-15,21:00:00,Los Angeles Stadium,SoFi Stadium,"Inglewood, California",United States,Iran,New Zealand,1,2,NA,FAKE_FINISHED,TRUE
+17,NA,fake,Group Stage,I,2026-06-16,15:00:00,New York New Jersey Stadium,MetLife Stadium,"East Rutherford, New Jersey",United States,France,Senegal,1,1,NA,FAKE_FINISHED,TRUE
+18,NA,fake,Group Stage,I,2026-06-16,18:00:00,Boston Stadium,Gillette Stadium,"Foxborough, Massachusetts",United States,Iraq,Norway,0,0,NA,FAKE_FINISHED,TRUE
+19,NA,fake,Group Stage,J,2026-06-16,21:00:00,Kansas City Stadium,Arrowhead Stadium,"Kansas City, Missouri",United States,Argentina,Algeria,1,1,NA,FAKE_FINISHED,TRUE
+20,NA,fake,Group Stage,J,2026-06-16,00:00:00,San Francisco Bay Stadium,Levi's Stadium,"Santa Clara, California",United States,Austria,Jordan,0,2,NA,FAKE_FINISHED,TRUE
+21,NA,fake,Group Stage,K,2026-06-17,13:00:00,Houston Stadium,NRG Stadium,"Houston, Texas",United States,Portugal,Congo DR,1,1,NA,FAKE_FINISHED,TRUE
+22,NA,fake,Group Stage,L,2026-06-17,16:00:00,Dallas Stadium,AT&T Stadium,"Arlington, Texas",United States,England,Croatia,1,0,NA,FAKE_FINISHED,TRUE
+23,NA,fake,Group Stage,L,2026-06-17,19:00:00,Toronto Stadium,BMO Field,Toronto,Canada,Ghana,Panama,0,1,NA,FAKE_FINISHED,TRUE
+24,NA,fake,Group Stage,K,2026-06-17,22:00:00,Mexico City Stadium,Estadio Banorte,Mexico City,Mexico,Uzbekistan,Colombia,0,1,NA,FAKE_FINISHED,TRUE
+25,NA,fake,Group Stage,A,2026-06-18,12:00:00,Atlanta Stadium,Mercedes-Benz Stadium,"Atlanta, Georgia",United States,Czechia,South Africa,1,0,NA,FAKE_FINISHED,TRUE
+26,NA,fake,Group Stage,B,2026-06-18,15:00:00,Los Angeles Stadium,SoFi Stadium,"Inglewood, California",United States,Switzerland,Bosnia and Herzegovina,0,1,NA,FAKE_FINISHED,TRUE
+27,NA,fake,Group Stage,B,2026-06-18,18:00:00,BC Place,BC Place,Vancouver,Canada,Canada,Qatar,1,1,NA,FAKE_FINISHED,TRUE
+28,NA,fake,Group Stage,A,2026-06-18,21:00:00,Guadalajara Stadium,Estadio Akron,Zapopan,Mexico,Mexico,South Korea,0,2,NA,FAKE_FINISHED,TRUE
+29,NA,fake,Group Stage,D,2026-06-19,15:00:00,Seattle Stadium,Lumen Field,"Seattle, Washington",United States,United States,Australia,0,0,NA,FAKE_FINISHED,TRUE
+30,NA,fake,Group Stage,C,2026-06-19,15:00:00,Boston Stadium,Gillette Stadium,"Foxborough, Massachusetts",United States,Scotland,Morocco,1,0,NA,FAKE_FINISHED,TRUE
+31,NA,fake,Group Stage,C,2026-06-19,21:00:00,Philadelphia Stadium,Lincoln Financial Field,"Philadelphia, Pennsylvania",United States,Brazil,Haiti,3,3,NA,FAKE_FINISHED,TRUE
+32,NA,fake,Group Stage,D,2026-06-19,00:00:00,San Francisco Bay Stadium,Levi's Stadium,"Santa Clara, California",United States,Türkiye,Paraguay,0,0,NA,FAKE_FINISHED,TRUE
+33,NA,fake,Group Stage,F,2026-06-20,13:00:00,Houston Stadium,NRG Stadium,"Houston, Texas",United States,Netherlands,Sweden,2,0,NA,FAKE_FINISHED,TRUE
+34,NA,fake,Group Stage,E,2026-06-20,16:00:00,Toronto Stadium,BMO Field,Toronto,Canada,Germany,Ivory Coast,0,1,NA,FAKE_FINISHED,TRUE
+35,NA,fake,Group Stage,E,2026-06-20,20:00:00,Kansas City Stadium,Arrowhead Stadium,"Kansas City, Missouri",United States,Ecuador,Curaçao,1,1,NA,FAKE_FINISHED,TRUE
+36,NA,fake,Group Stage,F,2026-06-20,00:00:00,Monterrey Stadium,Estadio BBVA,Guadalupe,Mexico,Tunisia,Japan,1,1,NA,FAKE_FINISHED,TRUE
+37,NA,fake,Group Stage,H,2026-06-21,12:00:00,Atlanta Stadium,Mercedes-Benz Stadium,"Atlanta, Georgia",United States,Spain,Saudi Arabia,0,2,NA,FAKE_FINISHED,TRUE
+38,NA,fake,Group Stage,G,2026-06-21,15:00:00,Los Angeles Stadium,SoFi Stadium,"Inglewood, California",United States,Belgium,Iran,1,1,NA,FAKE_FINISHED,TRUE
+39,NA,fake,Group Stage,H,2026-06-21,18:00:00,Miami Stadium,Hard Rock Stadium,"Miami Gardens, Florida",United States,Uruguay,Cape Verde,2,1,NA,FAKE_FINISHED,TRUE
+40,NA,fake,Group Stage,G,2026-06-21,21:00:00,BC Place,BC Place,Vancouver,Canada,New Zealand,Egypt,1,2,NA,FAKE_FINISHED,TRUE
+41,NA,fake,Group Stage,J,2026-06-22,13:00:00,Dallas Stadium,AT&T Stadium,"Arlington, Texas",United States,Argentina,Austria,1,3,NA,FAKE_FINISHED,TRUE
+42,NA,fake,Group Stage,I,2026-06-22,17:00:00,Philadelphia Stadium,Lincoln Financial Field,"Philadelphia, Pennsylvania",United States,France,Iraq,3,0,NA,FAKE_FINISHED,TRUE
+43,NA,fake,Group Stage,I,2026-06-22,20:00:00,New York New Jersey Stadium,MetLife Stadium,"East Rutherford, New Jersey",United States,Norway,Senegal,1,0,NA,FAKE_FINISHED,TRUE
+44,NA,fake,Group Stage,J,2026-06-22,23:00:00,San Francisco Bay Stadium,Levi's Stadium,"Santa Clara, California",United States,Jordan,Algeria,1,2,NA,FAKE_FINISHED,TRUE
+45,NA,fake,Group Stage,K,2026-06-23,13:00:00,Houston Stadium,NRG Stadium,"Houston, Texas",United States,Portugal,Uzbekistan,0,2,NA,FAKE_FINISHED,TRUE
+46,NA,fake,Group Stage,L,2026-06-23,16:00:00,Boston Stadium,Gillette Stadium,"Foxborough, Massachusetts",United States,England,Ghana,0,0,NA,FAKE_FINISHED,TRUE
+47,NA,fake,Group Stage,L,2026-06-23,19:00:00,Toronto Stadium,BMO Field,Toronto,Canada,Panama,Croatia,3,0,NA,FAKE_FINISHED,TRUE
+48,NA,fake,Group Stage,K,2026-06-23,22:00:00,Guadalajara Stadium,Estadio Akron,Zapopan,Mexico,Colombia,Congo DR,1,0,NA,FAKE_FINISHED,TRUE
+49,NA,fake,Group Stage,B,2026-06-24,15:00:00,BC Place,BC Place,Vancouver,Canada,Switzerland,Canada,1,4,NA,FAKE_FINISHED,TRUE
+50,NA,fake,Group Stage,B,2026-06-24,15:00:00,Seattle Stadium,Lumen Field,"Seattle, Washington",United States,Bosnia and Herzegovina,Qatar,0,1,NA,FAKE_FINISHED,TRUE
+51,NA,fake,Group Stage,C,2026-06-24,18:00:00,Miami Stadium,Hard Rock Stadium,"Miami Gardens, Florida",United States,Brazil,Scotland,4,2,NA,FAKE_FINISHED,TRUE
+52,NA,fake,Group Stage,C,2026-06-24,18:00:00,Atlanta Stadium,Mercedes-Benz Stadium,"Atlanta, Georgia",United States,Morocco,Haiti,2,2,NA,FAKE_FINISHED,TRUE
+53,NA,fake,Group Stage,A,2026-06-24,21:00:00,Mexico City Stadium,Estadio Banorte,Mexico City,Mexico,Mexico,Czechia,4,1,NA,FAKE_FINISHED,TRUE
+54,NA,fake,Group Stage,A,2026-06-24,21:00:00,Monterrey Stadium,Estadio BBVA,Guadalupe,Mexico,South Korea,South Africa,3,2,NA,FAKE_FINISHED,TRUE
+55,NA,fake,Group Stage,E,2026-06-25,16:00:00,New York New Jersey Stadium,MetLife Stadium,"East Rutherford, New Jersey",United States,Ecuador,Germany,1,2,NA,FAKE_FINISHED,TRUE
+56,NA,fake,Group Stage,E,2026-06-25,16:00:00,Philadelphia Stadium,Lincoln Financial Field,"Philadelphia, Pennsylvania",United States,Curaçao,Ivory Coast,2,0,NA,FAKE_FINISHED,TRUE
+57,NA,fake,Group Stage,F,2026-06-25,19:00:00,Kansas City Stadium,Arrowhead Stadium,"Kansas City, Missouri",United States,Tunisia,Netherlands,2,0,NA,FAKE_FINISHED,TRUE
+58,NA,fake,Group Stage,F,2026-06-25,19:00:00,Dallas Stadium,AT&T Stadium,"Arlington, Texas",United States,Japan,Sweden,0,1,NA,FAKE_FINISHED,TRUE
+59,NA,fake,Group Stage,D,2026-06-25,22:00:00,Los Angeles Stadium,SoFi Stadium,"Inglewood, California",United States,United States,Türkiye,4,3,NA,FAKE_FINISHED,TRUE
+60,NA,fake,Group Stage,D,2026-06-25,22:00:00,San Francisco Bay Stadium,Levi's Stadium,"Santa Clara, California",United States,Paraguay,Australia,0,0,NA,FAKE_FINISHED,TRUE
+61,NA,fake,Group Stage,I,2026-06-26,15:00:00,Boston Stadium,Gillette Stadium,"Foxborough, Massachusetts",United States,Norway,France,1,0,NA,FAKE_FINISHED,TRUE
+62,NA,fake,Group Stage,I,2026-06-26,15:00:00,Toronto Stadium,BMO Field,Toronto,Canada,Senegal,Iraq,3,1,NA,FAKE_FINISHED,TRUE
+63,NA,fake,Group Stage,H,2026-06-26,20:00:00,Guadalajara Stadium,Estadio Akron,Zapopan,Mexico,Uruguay,Spain,1,0,NA,FAKE_FINISHED,TRUE
+64,NA,fake,Group Stage,H,2026-06-26,20:00:00,Houston Stadium,NRG Stadium,"Houston, Texas",United States,Cape Verde,Saudi Arabia,1,1,NA,FAKE_FINISHED,TRUE
+65,NA,fake,Group Stage,G,2026-06-26,23:00:00,BC Place,BC Place,Vancouver,Canada,New Zealand,Belgium,1,1,NA,FAKE_FINISHED,TRUE
+66,NA,fake,Group Stage,G,2026-06-26,23:00:00,Seattle Stadium,Lumen Field,"Seattle, Washington",United States,Egypt,Iran,0,0,NA,FAKE_FINISHED,TRUE
+67,NA,fake,Group Stage,L,2026-06-27,17:00:00,New York New Jersey Stadium,MetLife Stadium,"East Rutherford, New Jersey",United States,Panama,England,2,2,NA,FAKE_FINISHED,TRUE
+68,NA,fake,Group Stage,L,2026-06-27,17:00:00,Philadelphia Stadium,Lincoln Financial Field,"Philadelphia, Pennsylvania",United States,Croatia,Ghana,1,2,NA,FAKE_FINISHED,TRUE
+69,NA,fake,Group Stage,K,2026-06-27,19:30:00,Miami Stadium,Hard Rock Stadium,"Miami Gardens, Florida",United States,Colombia,Portugal,1,1,NA,FAKE_FINISHED,TRUE
+70,NA,fake,Group Stage,K,2026-06-27,19:30:00,Atlanta Stadium,Mercedes-Benz Stadium,"Atlanta, Georgia",United States,Congo DR,Uzbekistan,2,2,NA,FAKE_FINISHED,TRUE
+71,NA,fake,Group Stage,J,2026-06-27,22:00:00,Dallas Stadium,AT&T Stadium,"Arlington, Texas",United States,Argentina,Jordan,3,0,NA,FAKE_FINISHED,TRUE
+72,NA,fake,Group Stage,J,2026-06-27,22:00:00,Kansas City Stadium,Arrowhead Stadium,"Kansas City, Missouri",United States,Algeria,Austria,1,1,NA,FAKE_FINISHED,TRUE
+73,NA,fake,Round of 32,NA,2026-06-28,15:00:00,Los Angeles Stadium,SoFi Stadium,"Inglewood, California",United States,Group A runner-up,Group B runner-up,NA,NA,NA,SCHEDULED,FALSE
+74,NA,fake,Round of 32,NA,2026-06-29,13:00:00,Houston Stadium,NRG Stadium,"Houston, Texas",United States,Group C winner,Group F runner-up,NA,NA,NA,SCHEDULED,FALSE
+75,NA,fake,Round of 32,NA,2026-06-29,16:30:00,Boston Stadium,Gillette Stadium,"Foxborough, Massachusetts",United States,Group E winner,Group A/B/C/D/F third place,NA,NA,NA,SCHEDULED,FALSE
+76,NA,fake,Round of 32,NA,2026-06-29,21:00:00,Monterrey Stadium,Estadio BBVA,Guadalupe,Mexico,Group F winner,Group C runner-up,NA,NA,NA,SCHEDULED,FALSE
+77,NA,fake,Round of 32,NA,2026-06-30,13:00:00,Dallas Stadium,AT&T Stadium,"Arlington, Texas",United States,Group E runner-up,Group I runner-up,NA,NA,NA,SCHEDULED,FALSE
+78,NA,fake,Round of 32,NA,2026-06-30,17:00:00,New York New Jersey Stadium,MetLife Stadium,"East Rutherford, New Jersey",United States,Group I winner,Group C/D/F/G/H third place,NA,NA,NA,SCHEDULED,FALSE
+79,NA,fake,Round of 32,NA,2026-06-30,21:00:00,Mexico City Stadium,Estadio Banorte,Mexico City,Mexico,Group A winner,Group C/E/F/H/I third place,NA,NA,NA,SCHEDULED,FALSE
+80,NA,fake,Round of 32,NA,2026-07-01,12:00:00,Atlanta Stadium,Mercedes-Benz Stadium,"Atlanta, Georgia",United States,Group L winner,Group E/H/I/J/K third place,NA,NA,NA,SCHEDULED,FALSE
+81,NA,fake,Round of 32,NA,2026-07-01,16:00:00,Seattle Stadium,Lumen Field,"Seattle, Washington",United States,Group G winner,Group A/E/H/I/J third place,NA,NA,NA,SCHEDULED,FALSE
+82,NA,fake,Round of 32,NA,2026-07-01,20:00:00,San Francisco Bay Stadium,Levi's Stadium,"Santa Clara, California",United States,Group D winner,Group B/E/F/I/J third place,NA,NA,NA,SCHEDULED,FALSE
+83,NA,fake,Round of 32,NA,2026-07-02,15:00:00,Los Angeles Stadium,SoFi Stadium,"Inglewood, California",United States,Group H winner,Group J runner-up,NA,NA,NA,SCHEDULED,FALSE
+84,NA,fake,Round of 32,NA,2026-07-02,19:00:00,Toronto Stadium,BMO Field,Toronto,Canada,Group K runner-up,Group L runner-up,NA,NA,NA,SCHEDULED,FALSE
+85,NA,fake,Round of 32,NA,2026-07-02,23:00:00,BC Place,BC Place,Vancouver,Canada,Group B winner,Group D/E/I/J/L third place,NA,NA,NA,SCHEDULED,FALSE
+86,NA,fake,Round of 32,NA,2026-07-03,14:00:00,Dallas Stadium,AT&T Stadium,"Arlington, Texas",United States,Group D runner-up,Group G runner-up,NA,NA,NA,SCHEDULED,FALSE
+87,NA,fake,Round of 32,NA,2026-07-03,18:00:00,Miami Stadium,Hard Rock Stadium,"Miami Gardens, Florida",United States,Group J winner,Group H runner-up,NA,NA,NA,SCHEDULED,FALSE
+88,NA,fake,Round of 32,NA,2026-07-03,21:30:00,Kansas City Stadium,Arrowhead Stadium,"Kansas City, Missouri",United States,Group K winner,Group D/E/I/J/L third place,NA,NA,NA,SCHEDULED,FALSE
+89,NA,fake,Round of 16,NA,2026-07-04,13:00:00,Houston Stadium,NRG Stadium,"Houston, Texas",United States,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
+90,NA,fake,Round of 16,NA,2026-07-04,17:00:00,Philadelphia Stadium,Lincoln Financial Field,"Philadelphia, Pennsylvania",United States,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
+91,NA,fake,Round of 16,NA,2026-07-05,16:00:00,New York New Jersey Stadium,MetLife Stadium,"East Rutherford, New Jersey",United States,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
+92,NA,fake,Round of 16,NA,2026-07-05,20:00:00,Mexico City Stadium,Estadio Banorte,Mexico City,Mexico,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
+93,NA,fake,Round of 16,NA,2026-07-06,15:00:00,Dallas Stadium,AT&T Stadium,"Arlington, Texas",United States,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
+94,NA,fake,Round of 16,NA,2026-07-06,20:00:00,Seattle Stadium,Lumen Field,"Seattle, Washington",United States,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
+95,NA,fake,Round of 16,NA,2026-07-07,12:00:00,Atlanta Stadium,Mercedes-Benz Stadium,"Atlanta, Georgia",United States,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
+96,NA,fake,Round of 16,NA,2026-07-07,16:00:00,BC Place,BC Place,Vancouver,Canada,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
+97,NA,fake,Quarterfinal,NA,2026-07-09,16:00:00,Boston Stadium,Gillette Stadium,"Foxborough, Massachusetts",United States,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
+98,NA,fake,Quarterfinal,NA,2026-07-10,15:00:00,Los Angeles Stadium,SoFi Stadium,"Inglewood, California",United States,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
+99,NA,fake,Quarterfinal,NA,2026-07-11,17:00:00,Miami Stadium,Hard Rock Stadium,"Miami Gardens, Florida",United States,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
+100,NA,fake,Quarterfinal,NA,2026-07-11,21:00:00,Kansas City Stadium,Arrowhead Stadium,"Kansas City, Missouri",United States,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
+101,NA,fake,Semifinal,NA,2026-07-14,15:00:00,Dallas Stadium,AT&T Stadium,"Arlington, Texas",United States,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
+102,NA,fake,Semifinal,NA,2026-07-15,15:00:00,Atlanta Stadium,Mercedes-Benz Stadium,"Atlanta, Georgia",United States,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
+103,NA,fake,Third-place match,NA,2026-07-18,17:00:00,Miami Stadium,Hard Rock Stadium,"Miami Gardens, Florida",United States,Loser match 101,Loser match 102,NA,NA,NA,SCHEDULED,FALSE
+104,NA,fake,Final,NA,2026-07-19,15:00:00,New York New Jersey Stadium,MetLife Stadium,"East Rutherford, New Jersey",United States,Winner match 101,Winner match 102,NA,NA,NA,SCHEDULED,FALSE
