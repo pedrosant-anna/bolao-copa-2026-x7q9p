@@ -3,7 +3,7 @@ match_id,source_match_id,source,stage,group,date,time,team1,team2,team1_goals,te
 2,760414,espn,Group Stage,A,2026-06-11,22:00:00,South Korea,Czechia,2,1,South Korea,STATUS_FULL_TIME,TRUE
 3,760416,espn,Group Stage,B,2026-06-12,15:00:00,Canada,Bosnia and Herzegovina,1,1,NA,STATUS_FULL_TIME,TRUE
 4,760417,espn,Group Stage,D,2026-06-12,21:00:00,United States,Paraguay,4,1,United States,STATUS_FULL_TIME,TRUE
-5,760420,espn,Group Stage,B,2026-06-13,15:00:00,Qatar,Switzerland,NA,NA,NA,STATUS_SCHEDULED,FALSE
+5,760420,espn,Group Stage,B,2026-06-13,15:00:00,Qatar,Switzerland,NA,NA,NA,STATUS_SECOND_HALF,FALSE
 6,760419,espn,Group Stage,C,2026-06-13,18:00:00,Brazil,Morocco,NA,NA,NA,STATUS_SCHEDULED,FALSE
 7,760418,espn,Group Stage,C,2026-06-13,21:00:00,Haiti,Scotland,NA,NA,NA,STATUS_SCHEDULED,FALSE
 8,760421,espn,Group Stage,D,2026-06-13,00:00:00,Australia,Türkiye,NA,NA,NA,STATUS_SCHEDULED,FALSE
