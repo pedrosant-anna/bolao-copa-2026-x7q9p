@@ -11,8 +11,8 @@ Gustavo,C,1,Brazil,NA,NA,NA
 Gustavo,C,2,Morocco,NA,NA,NA
 Gustavo,C,3,Scotland,NA,NA,NA
 Gustavo,C,4,Haiti,NA,NA,NA
-Gustavo,D,1,Türkiye,NA,NA,NA
-Gustavo,D,2,United States,NA,NA,NA
+Gustavo,D,1,Türkiye,United States,FALSE,0
+Gustavo,D,2,United States,Paraguay,FALSE,0
 Gustavo,D,3,Paraguay,NA,NA,NA
 Gustavo,D,4,Australia,NA,NA,NA
 Gustavo,E,1,Germany,NA,NA,NA
@@ -59,8 +59,8 @@ Pedro,C,1,Brazil,NA,NA,NA
 Pedro,C,2,Morocco,NA,NA,NA
 Pedro,C,3,Scotland,NA,NA,NA
 Pedro,C,4,Haiti,NA,NA,NA
-Pedro,D,1,Paraguay,NA,NA,NA
-Pedro,D,2,Türkiye,NA,NA,NA
+Pedro,D,1,Paraguay,United States,FALSE,0
+Pedro,D,2,Türkiye,Paraguay,FALSE,0
 Pedro,D,3,United States,NA,NA,NA
 Pedro,D,4,Australia,NA,NA,NA
 Pedro,E,1,Germany,NA,NA,NA
