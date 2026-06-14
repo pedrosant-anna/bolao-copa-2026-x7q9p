@@ -15,8 +15,8 @@ Gustavo,D,1,Türkiye,United States,FALSE,0
 Gustavo,D,2,United States,Australia,FALSE,0
 Gustavo,D,3,Paraguay,Türkiye,FALSE,0
 Gustavo,D,4,Australia,Paraguay,FALSE,0
-Gustavo,E,1,Germany,NA,NA,NA
-Gustavo,E,2,Ivory Coast,NA,NA,NA
+Gustavo,E,1,Germany,Germany,TRUE,2
+Gustavo,E,2,Ivory Coast,Curaçao,FALSE,0
 Gustavo,E,3,Ecuador,NA,NA,NA
 Gustavo,E,4,Curaçao,NA,NA,NA
 Gustavo,F,1,Netherlands,NA,NA,NA
@@ -63,8 +63,8 @@ Pedro,D,1,Paraguay,United States,FALSE,0
 Pedro,D,2,Türkiye,Australia,FALSE,0
 Pedro,D,3,United States,Türkiye,FALSE,0
 Pedro,D,4,Australia,Paraguay,FALSE,0
-Pedro,E,1,Germany,NA,NA,NA
-Pedro,E,2,Ecuador,NA,NA,NA
+Pedro,E,1,Germany,Germany,TRUE,2
+Pedro,E,2,Ecuador,Curaçao,FALSE,0
 Pedro,E,3,Ivory Coast,NA,NA,NA
 Pedro,E,4,Curaçao,NA,NA,NA
 Pedro,F,1,Netherlands,NA,NA,NA
