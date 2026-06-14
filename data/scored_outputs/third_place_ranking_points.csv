@@ -1,6 +1,6 @@
 participant,position,predicted_team,predicted_group,predicted_qualified,actual_team,actual_group,qualified,points,gd,gf,correct
-Gustavo,1,Japan,F,1,Czechia,A,1,0,-1,1,FALSE
-Gustavo,2,Ecuador,E,1,NA,NA,NA,NA,NA,NA,NA
+Gustavo,1,Japan,F,1,Qatar,B,1,0,0,1,FALSE
+Gustavo,2,Ecuador,E,1,Czechia,A,1,0,-1,1,FALSE
 Gustavo,3,South Korea,A,1,NA,NA,NA,NA,NA,NA,NA
 Gustavo,4,Paraguay,D,1,NA,NA,NA,NA,NA,NA,NA
 Gustavo,5,Bosnia and Herzegovina,B,1,NA,NA,NA,NA,NA,NA,NA
@@ -11,8 +11,8 @@ Gustavo,9,Ghana,L,0,NA,NA,NA,NA,NA,NA,NA
 Gustavo,10,Scotland,C,0,NA,NA,NA,NA,NA,NA,NA
 Gustavo,11,Uzbekistan,K,0,NA,NA,NA,NA,NA,NA,NA
 Gustavo,12,Iran,G,0,NA,NA,NA,NA,NA,NA,NA
-Pedro,1,United States,D,1,Czechia,A,1,0,-1,1,FALSE
-Pedro,2,Ivory Coast,E,1,NA,NA,NA,NA,NA,NA,NA
+Pedro,1,United States,D,1,Qatar,B,1,0,0,1,FALSE
+Pedro,2,Ivory Coast,E,1,Czechia,A,1,0,-1,1,FALSE
 Pedro,3,Senegal,I,1,NA,NA,NA,NA,NA,NA,NA
 Pedro,4,Czechia,A,1,NA,NA,NA,NA,NA,NA,NA
 Pedro,5,Tunisia,F,1,NA,NA,NA,NA,NA,NA,NA
