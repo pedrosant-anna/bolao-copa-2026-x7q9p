@@ -19,8 +19,8 @@ Gustavo,E,1,Germany,Germany,TRUE,2
 Gustavo,E,2,Ivory Coast,Curaçao,FALSE,0
 Gustavo,E,3,Ecuador,NA,NA,NA
 Gustavo,E,4,Curaçao,NA,NA,NA
-Gustavo,F,1,Netherlands,NA,NA,NA
-Gustavo,F,2,Sweden,NA,NA,NA
+Gustavo,F,1,Netherlands,Japan,FALSE,0
+Gustavo,F,2,Sweden,Netherlands,FALSE,0
 Gustavo,F,3,Japan,NA,NA,NA
 Gustavo,F,4,Tunisia,NA,NA,NA
 Gustavo,G,1,Belgium,NA,NA,NA
@@ -67,8 +67,8 @@ Pedro,E,1,Germany,Germany,TRUE,2
 Pedro,E,2,Ecuador,Curaçao,FALSE,0
 Pedro,E,3,Ivory Coast,NA,NA,NA
 Pedro,E,4,Curaçao,NA,NA,NA
-Pedro,F,1,Netherlands,NA,NA,NA
-Pedro,F,2,Japan,NA,NA,NA
+Pedro,F,1,Netherlands,Japan,FALSE,0
+Pedro,F,2,Japan,Netherlands,FALSE,0
 Pedro,F,3,Tunisia,NA,NA,NA
 Pedro,F,4,Sweden,NA,NA,NA
 Pedro,G,1,Belgium,NA,NA,NA
