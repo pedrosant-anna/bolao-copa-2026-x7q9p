@@ -27,8 +27,8 @@ Gustavo,G,1,Belgium,NA,NA,NA
 Gustavo,G,2,Egypt,NA,NA,NA
 Gustavo,G,3,Iran,NA,NA,NA
 Gustavo,G,4,New Zealand,NA,NA,NA
-Gustavo,H,1,Spain,NA,NA,NA
-Gustavo,H,2,Uruguay,NA,NA,NA
+Gustavo,H,1,Spain,Cape Verde,FALSE,0
+Gustavo,H,2,Uruguay,Spain,FALSE,0
 Gustavo,H,3,Saudi Arabia,NA,NA,NA
 Gustavo,H,4,Cape Verde,NA,NA,NA
 Gustavo,I,1,France,NA,NA,NA
@@ -75,8 +75,8 @@ Pedro,G,1,Belgium,NA,NA,NA
 Pedro,G,2,Egypt,NA,NA,NA
 Pedro,G,3,Iran,NA,NA,NA
 Pedro,G,4,New Zealand,NA,NA,NA
-Pedro,H,1,Spain,NA,NA,NA
-Pedro,H,2,Uruguay,NA,NA,NA
+Pedro,H,1,Spain,Cape Verde,FALSE,0
+Pedro,H,2,Uruguay,Spain,FALSE,0
 Pedro,H,3,Saudi Arabia,NA,NA,NA
 Pedro,H,4,Cape Verde,NA,NA,NA
 Pedro,I,1,France,NA,NA,NA
