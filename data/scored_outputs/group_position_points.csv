@@ -31,8 +31,8 @@ Gustavo,H,1,Spain,Saudi Arabia,FALSE,0
 Gustavo,H,2,Uruguay,Uruguay,TRUE,5
 Gustavo,H,3,Saudi Arabia,Cape Verde,FALSE,0
 Gustavo,H,4,Cape Verde,Spain,FALSE,0
-Gustavo,I,1,France,NA,NA,NA
-Gustavo,I,2,Norway,NA,NA,NA
+Gustavo,I,1,France,France,TRUE,2
+Gustavo,I,2,Norway,Senegal,FALSE,0
 Gustavo,I,3,Senegal,NA,NA,NA
 Gustavo,I,4,Iraq,NA,NA,NA
 Gustavo,J,1,Argentina,NA,NA,NA
@@ -79,8 +79,8 @@ Pedro,H,1,Spain,Saudi Arabia,FALSE,0
 Pedro,H,2,Uruguay,Uruguay,TRUE,5
 Pedro,H,3,Saudi Arabia,Cape Verde,FALSE,0
 Pedro,H,4,Cape Verde,Spain,FALSE,0
-Pedro,I,1,France,NA,NA,NA
-Pedro,I,2,Norway,NA,NA,NA
+Pedro,I,1,France,France,TRUE,2
+Pedro,I,2,Norway,Senegal,FALSE,0
 Pedro,I,3,Senegal,NA,NA,NA
 Pedro,I,4,Iraq,NA,NA,NA
 Pedro,J,1,Argentina,NA,NA,NA
