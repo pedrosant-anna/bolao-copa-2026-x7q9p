@@ -23,14 +23,14 @@ Gustavo,F,1,Netherlands,Sweden,FALSE,0
 Gustavo,F,2,Sweden,Japan,FALSE,0
 Gustavo,F,3,Japan,Netherlands,FALSE,0
 Gustavo,F,4,Tunisia,Tunisia,TRUE,2
-Gustavo,G,1,Belgium,Belgium,TRUE,2
-Gustavo,G,2,Egypt,Egypt,TRUE,5
-Gustavo,G,3,Iran,NA,NA,NA
-Gustavo,G,4,New Zealand,NA,NA,NA
-Gustavo,H,1,Spain,Cape Verde,FALSE,0
-Gustavo,H,2,Uruguay,Spain,FALSE,0
-Gustavo,H,3,Saudi Arabia,NA,NA,NA
-Gustavo,H,4,Cape Verde,NA,NA,NA
+Gustavo,G,1,Belgium,Iran,FALSE,0
+Gustavo,G,2,Egypt,New Zealand,FALSE,0
+Gustavo,G,3,Iran,Belgium,FALSE,0
+Gustavo,G,4,New Zealand,Egypt,FALSE,0
+Gustavo,H,1,Spain,Saudi Arabia,FALSE,0
+Gustavo,H,2,Uruguay,Uruguay,TRUE,5
+Gustavo,H,3,Saudi Arabia,Cape Verde,FALSE,0
+Gustavo,H,4,Cape Verde,Spain,FALSE,0
 Gustavo,I,1,France,NA,NA,NA
 Gustavo,I,2,Norway,NA,NA,NA
 Gustavo,I,3,Senegal,NA,NA,NA
@@ -71,14 +71,14 @@ Pedro,F,1,Netherlands,Sweden,FALSE,0
 Pedro,F,2,Japan,Japan,TRUE,5
 Pedro,F,3,Tunisia,Netherlands,FALSE,0
 Pedro,F,4,Sweden,Tunisia,FALSE,0
-Pedro,G,1,Belgium,Belgium,TRUE,2
-Pedro,G,2,Egypt,Egypt,TRUE,5
-Pedro,G,3,Iran,NA,NA,NA
-Pedro,G,4,New Zealand,NA,NA,NA
-Pedro,H,1,Spain,Cape Verde,FALSE,0
-Pedro,H,2,Uruguay,Spain,FALSE,0
-Pedro,H,3,Saudi Arabia,NA,NA,NA
-Pedro,H,4,Cape Verde,NA,NA,NA
+Pedro,G,1,Belgium,Iran,FALSE,0
+Pedro,G,2,Egypt,New Zealand,FALSE,0
+Pedro,G,3,Iran,Belgium,FALSE,0
+Pedro,G,4,New Zealand,Egypt,FALSE,0
+Pedro,H,1,Spain,Saudi Arabia,FALSE,0
+Pedro,H,2,Uruguay,Uruguay,TRUE,5
+Pedro,H,3,Saudi Arabia,Cape Verde,FALSE,0
+Pedro,H,4,Cape Verde,Spain,FALSE,0
 Pedro,I,1,France,NA,NA,NA
 Pedro,I,2,Norway,NA,NA,NA
 Pedro,I,3,Senegal,NA,NA,NA
