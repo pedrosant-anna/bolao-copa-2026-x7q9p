@@ -6,9 +6,9 @@ Gustavo,4,Paraguay,D,1,Qatar,B,1,0,0,1,FALSE
 Gustavo,5,Bosnia and Herzegovina,B,1,Cape Verde,H,1,0,0,0,FALSE
 Gustavo,6,Senegal,I,1,Czechia,A,1,0,-1,1,FALSE
 Gustavo,7,Algeria,J,1,Ecuador,E,1,0,-1,0,FALSE
-Gustavo,8,Saudi Arabia,H,1,Senegal,I,1,0,-2,1,FALSE
-Gustavo,9,Ghana,L,0,Türkiye,D,0,0,-2,0,FALSE
-Gustavo,10,Scotland,C,0,NA,NA,NA,NA,NA,NA,NA
+Gustavo,8,Saudi Arabia,H,1,Jordan,J,1,0,-2,1,FALSE
+Gustavo,9,Ghana,L,0,Senegal,I,0,0,-2,1,FALSE
+Gustavo,10,Scotland,C,0,Türkiye,D,0,0,-2,0,FALSE
 Gustavo,11,Uzbekistan,K,0,NA,NA,NA,NA,NA,NA,NA
 Gustavo,12,Iran,G,0,NA,NA,NA,NA,NA,NA,NA
 Pedro,1,United States,D,1,Netherlands,F,1,0,0,2,FALSE
@@ -18,8 +18,8 @@ Pedro,4,Czechia,A,1,Qatar,B,1,0,0,1,FALSE
 Pedro,5,Tunisia,F,1,Cape Verde,H,1,0,0,0,FALSE
 Pedro,6,Saudi Arabia,H,1,Czechia,A,1,0,-1,1,FALSE
 Pedro,7,Bosnia and Herzegovina,B,1,Ecuador,E,1,0,-1,0,FALSE
-Pedro,8,Ghana,L,1,Senegal,I,1,0,-2,1,FALSE
-Pedro,9,Algeria,J,0,Türkiye,D,0,0,-2,0,FALSE
-Pedro,10,Scotland,C,0,NA,NA,NA,NA,NA,NA,NA
+Pedro,8,Ghana,L,1,Jordan,J,1,0,-2,1,FALSE
+Pedro,9,Algeria,J,0,Senegal,I,0,0,-2,1,FALSE
+Pedro,10,Scotland,C,0,Türkiye,D,0,0,-2,0,FALSE
 Pedro,11,Iran,G,0,NA,NA,NA,NA,NA,NA,NA
 Pedro,12,Congo DR,K,0,NA,NA,NA,NA,NA,NA,NA

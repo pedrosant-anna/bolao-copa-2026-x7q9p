@@ -35,10 +35,10 @@ Gustavo,I,1,France,Norway,FALSE,0
 Gustavo,I,2,Norway,France,FALSE,0
 Gustavo,I,3,Senegal,Senegal,TRUE,5
 Gustavo,I,4,Iraq,Iraq,TRUE,2
-Gustavo,J,1,Argentina,NA,NA,NA
-Gustavo,J,2,Austria,NA,NA,NA
-Gustavo,J,3,Algeria,NA,NA,NA
-Gustavo,J,4,Jordan,NA,NA,NA
+Gustavo,J,1,Argentina,Argentina,TRUE,2
+Gustavo,J,2,Austria,Austria,TRUE,5
+Gustavo,J,3,Algeria,Jordan,FALSE,0
+Gustavo,J,4,Jordan,Algeria,FALSE,0
 Gustavo,K,1,Portugal,NA,NA,NA
 Gustavo,K,2,Colombia,NA,NA,NA
 Gustavo,K,3,Uzbekistan,NA,NA,NA
@@ -83,10 +83,10 @@ Pedro,I,1,France,Norway,FALSE,0
 Pedro,I,2,Norway,France,FALSE,0
 Pedro,I,3,Senegal,Senegal,TRUE,5
 Pedro,I,4,Iraq,Iraq,TRUE,2
-Pedro,J,1,Argentina,NA,NA,NA
-Pedro,J,2,Austria,NA,NA,NA
-Pedro,J,3,Algeria,NA,NA,NA
-Pedro,J,4,Jordan,NA,NA,NA
+Pedro,J,1,Argentina,Argentina,TRUE,2
+Pedro,J,2,Austria,Austria,TRUE,5
+Pedro,J,3,Algeria,Jordan,FALSE,0
+Pedro,J,4,Jordan,Algeria,FALSE,0
 Pedro,K,1,Portugal,NA,NA,NA
 Pedro,K,2,Colombia,NA,NA,NA
 Pedro,K,3,Congo DR,NA,NA,NA
