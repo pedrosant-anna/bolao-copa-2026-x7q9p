@@ -21,8 +21,8 @@ match_id,source_match_id,source,stage,group,date,time,team1,team2,team1_goals,te
 20,760431,espn,Group Stage,J,2026-06-16,00:00:00,Austria,Jordan,3,1,Austria,STATUS_FULL_TIME,TRUE
 21,760435,espn,Group Stage,K,2026-06-17,13:00:00,Portugal,Congo DR,1,1,NA,STATUS_FULL_TIME,TRUE
 22,760437,espn,Group Stage,L,2026-06-17,16:00:00,England,Croatia,4,2,England,STATUS_FULL_TIME,TRUE
-23,760434,espn,Group Stage,L,2026-06-17,19:00:00,Ghana,Panama,NA,NA,NA,STATUS_SCHEDULED,FALSE
-24,760436,espn,Group Stage,K,2026-06-17,22:00:00,Uzbekistan,Colombia,NA,NA,NA,STATUS_SCHEDULED,FALSE
+23,760434,espn,Group Stage,L,2026-06-17,19:00:00,Ghana,Panama,1,0,Ghana,STATUS_FULL_TIME,TRUE
+24,760436,espn,Group Stage,K,2026-06-17,22:00:00,Uzbekistan,Colombia,1,3,Colombia,STATUS_FULL_TIME,TRUE
 25,760438,espn,Group Stage,A,2026-06-18,12:00:00,Czechia,South Africa,NA,NA,NA,STATUS_SCHEDULED,FALSE
 26,760439,espn,Group Stage,B,2026-06-18,15:00:00,Switzerland,Bosnia and Herzegovina,NA,NA,NA,STATUS_SCHEDULED,FALSE
 27,760440,espn,Group Stage,B,2026-06-18,18:00:00,Canada,Qatar,NA,NA,NA,STATUS_SCHEDULED,FALSE

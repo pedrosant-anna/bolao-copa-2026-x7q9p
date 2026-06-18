@@ -39,14 +39,14 @@ Gustavo,J,1,Argentina,Argentina,TRUE,2
 Gustavo,J,2,Austria,Austria,TRUE,5
 Gustavo,J,3,Algeria,Jordan,FALSE,0
 Gustavo,J,4,Jordan,Algeria,FALSE,0
-Gustavo,K,1,Portugal,Congo DR,FALSE,0
-Gustavo,K,2,Colombia,Portugal,FALSE,0
-Gustavo,K,3,Uzbekistan,NA,NA,NA
-Gustavo,K,4,Congo DR,NA,NA,NA
+Gustavo,K,1,Portugal,Colombia,FALSE,0
+Gustavo,K,2,Colombia,Congo DR,FALSE,0
+Gustavo,K,3,Uzbekistan,Portugal,FALSE,0
+Gustavo,K,4,Congo DR,Uzbekistan,FALSE,0
 Gustavo,L,1,England,England,TRUE,2
-Gustavo,L,2,Croatia,Croatia,TRUE,5
-Gustavo,L,3,Ghana,NA,NA,NA
-Gustavo,L,4,Panama,NA,NA,NA
+Gustavo,L,2,Croatia,Ghana,FALSE,0
+Gustavo,L,3,Ghana,Panama,FALSE,0
+Gustavo,L,4,Panama,Croatia,FALSE,0
 Pedro,A,1,South Korea,Mexico,FALSE,0
 Pedro,A,2,Mexico,South Korea,FALSE,0
 Pedro,A,3,Czechia,Czechia,TRUE,5
@@ -87,11 +87,11 @@ Pedro,J,1,Argentina,Argentina,TRUE,2
 Pedro,J,2,Austria,Austria,TRUE,5
 Pedro,J,3,Algeria,Jordan,FALSE,0
 Pedro,J,4,Jordan,Algeria,FALSE,0
-Pedro,K,1,Portugal,Congo DR,FALSE,0
-Pedro,K,2,Colombia,Portugal,FALSE,0
-Pedro,K,3,Congo DR,NA,NA,NA
-Pedro,K,4,Uzbekistan,NA,NA,NA
+Pedro,K,1,Portugal,Colombia,FALSE,0
+Pedro,K,2,Colombia,Congo DR,FALSE,0
+Pedro,K,3,Congo DR,Portugal,FALSE,0
+Pedro,K,4,Uzbekistan,Uzbekistan,TRUE,2
 Pedro,L,1,England,England,TRUE,2
-Pedro,L,2,Croatia,Croatia,TRUE,5
-Pedro,L,3,Ghana,NA,NA,NA
-Pedro,L,4,Panama,NA,NA,NA
+Pedro,L,2,Croatia,Ghana,FALSE,0
+Pedro,L,3,Ghana,Panama,FALSE,0
+Pedro,L,4,Panama,Croatia,FALSE,0
