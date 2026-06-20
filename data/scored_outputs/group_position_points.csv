@@ -7,14 +7,14 @@ Gustavo,B,1,Switzerland,Canada,FALSE,0
 Gustavo,B,2,Canada,Switzerland,FALSE,0
 Gustavo,B,3,Bosnia and Herzegovina,Bosnia and Herzegovina,TRUE,5
 Gustavo,B,4,Qatar,Qatar,TRUE,2
-Gustavo,C,1,Brazil,Scotland,FALSE,0
-Gustavo,C,2,Morocco,Brazil,FALSE,0
-Gustavo,C,3,Scotland,Morocco,FALSE,0
+Gustavo,C,1,Brazil,Brazil,TRUE,2
+Gustavo,C,2,Morocco,Morocco,TRUE,5
+Gustavo,C,3,Scotland,Scotland,TRUE,5
 Gustavo,C,4,Haiti,Haiti,TRUE,2
 Gustavo,D,1,Türkiye,United States,FALSE,0
 Gustavo,D,2,United States,Australia,FALSE,0
-Gustavo,D,3,Paraguay,Türkiye,FALSE,0
-Gustavo,D,4,Australia,Paraguay,FALSE,0
+Gustavo,D,3,Paraguay,Paraguay,TRUE,5
+Gustavo,D,4,Australia,Türkiye,FALSE,0
 Gustavo,E,1,Germany,Germany,TRUE,2
 Gustavo,E,2,Ivory Coast,Ivory Coast,TRUE,5
 Gustavo,E,3,Ecuador,Ecuador,TRUE,5
@@ -55,14 +55,14 @@ Pedro,B,1,Switzerland,Canada,FALSE,0
 Pedro,B,2,Canada,Switzerland,FALSE,0
 Pedro,B,3,Bosnia and Herzegovina,Bosnia and Herzegovina,TRUE,5
 Pedro,B,4,Qatar,Qatar,TRUE,2
-Pedro,C,1,Brazil,Scotland,FALSE,0
-Pedro,C,2,Morocco,Brazil,FALSE,0
-Pedro,C,3,Scotland,Morocco,FALSE,0
+Pedro,C,1,Brazil,Brazil,TRUE,2
+Pedro,C,2,Morocco,Morocco,TRUE,5
+Pedro,C,3,Scotland,Scotland,TRUE,5
 Pedro,C,4,Haiti,Haiti,TRUE,2
 Pedro,D,1,Paraguay,United States,FALSE,0
 Pedro,D,2,Türkiye,Australia,FALSE,0
-Pedro,D,3,United States,Türkiye,FALSE,0
-Pedro,D,4,Australia,Paraguay,FALSE,0
+Pedro,D,3,United States,Paraguay,FALSE,0
+Pedro,D,4,Australia,Türkiye,FALSE,0
 Pedro,E,1,Germany,Germany,TRUE,2
 Pedro,E,2,Ecuador,Ivory Coast,FALSE,0
 Pedro,E,3,Ivory Coast,Ecuador,FALSE,0
