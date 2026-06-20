@@ -31,7 +31,7 @@ match_id,source_match_id,source,stage,group,date,time,team1,team2,team1_goals,te
 30,760445,espn,Group Stage,C,2026-06-19,15:00:00,Scotland,Morocco,0,1,Morocco,STATUS_FULL_TIME,TRUE
 31,760444,espn,Group Stage,C,2026-06-19,21:00:00,Brazil,Haiti,3,0,Brazil,STATUS_FULL_TIME,TRUE
 32,760443,espn,Group Stage,D,2026-06-19,00:00:00,Türkiye,Paraguay,0,1,Paraguay,STATUS_FULL_TIME,TRUE
-33,760447,espn,Group Stage,F,2026-06-20,13:00:00,Netherlands,Sweden,NA,NA,NA,STATUS_SCHEDULED,FALSE
+33,760447,espn,Group Stage,F,2026-06-20,13:00:00,Netherlands,Sweden,NA,NA,NA,STATUS_HALFTIME,FALSE
 34,760448,espn,Group Stage,E,2026-06-20,16:00:00,Germany,Ivory Coast,NA,NA,NA,STATUS_SCHEDULED,FALSE
 35,760446,espn,Group Stage,E,2026-06-20,20:00:00,Ecuador,Curaçao,NA,NA,NA,STATUS_SCHEDULED,FALSE
 36,760449,espn,Group Stage,F,2026-06-20,00:00:00,Tunisia,Japan,NA,NA,NA,STATUS_SCHEDULED,FALSE
