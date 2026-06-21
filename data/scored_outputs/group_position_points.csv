@@ -20,8 +20,8 @@ Gustavo,E,2,Ivory Coast,Ivory Coast,TRUE,5
 Gustavo,E,3,Ecuador,Ecuador,TRUE,5
 Gustavo,E,4,Curaçao,Curaçao,TRUE,2
 Gustavo,F,1,Netherlands,Netherlands,TRUE,2
-Gustavo,F,2,Sweden,Sweden,TRUE,5
-Gustavo,F,3,Japan,Japan,TRUE,5
+Gustavo,F,2,Sweden,Japan,FALSE,0
+Gustavo,F,3,Japan,Sweden,FALSE,0
 Gustavo,F,4,Tunisia,Tunisia,TRUE,2
 Gustavo,G,1,Belgium,Iran,FALSE,0
 Gustavo,G,2,Egypt,New Zealand,FALSE,0
@@ -68,8 +68,8 @@ Pedro,E,2,Ecuador,Ivory Coast,FALSE,0
 Pedro,E,3,Ivory Coast,Ecuador,FALSE,0
 Pedro,E,4,Curaçao,Curaçao,TRUE,2
 Pedro,F,1,Netherlands,Netherlands,TRUE,2
-Pedro,F,2,Japan,Sweden,FALSE,0
-Pedro,F,3,Tunisia,Japan,FALSE,0
+Pedro,F,2,Japan,Japan,TRUE,5
+Pedro,F,3,Tunisia,Sweden,FALSE,0
 Pedro,F,4,Sweden,Tunisia,FALSE,0
 Pedro,G,1,Belgium,Iran,FALSE,0
 Pedro,G,2,Egypt,New Zealand,FALSE,0
