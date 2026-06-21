@@ -27,10 +27,10 @@ Gustavo,G,1,Belgium,Iran,FALSE,0
 Gustavo,G,2,Egypt,New Zealand,FALSE,0
 Gustavo,G,3,Iran,Belgium,FALSE,0
 Gustavo,G,4,New Zealand,Egypt,FALSE,0
-Gustavo,H,1,Spain,Saudi Arabia,FALSE,0
+Gustavo,H,1,Spain,Spain,TRUE,2
 Gustavo,H,2,Uruguay,Uruguay,TRUE,5
 Gustavo,H,3,Saudi Arabia,Cape Verde,FALSE,0
-Gustavo,H,4,Cape Verde,Spain,FALSE,0
+Gustavo,H,4,Cape Verde,Saudi Arabia,FALSE,0
 Gustavo,I,1,France,Norway,FALSE,0
 Gustavo,I,2,Norway,France,FALSE,0
 Gustavo,I,3,Senegal,Senegal,TRUE,5
@@ -75,10 +75,10 @@ Pedro,G,1,Belgium,Iran,FALSE,0
 Pedro,G,2,Egypt,New Zealand,FALSE,0
 Pedro,G,3,Iran,Belgium,FALSE,0
 Pedro,G,4,New Zealand,Egypt,FALSE,0
-Pedro,H,1,Spain,Saudi Arabia,FALSE,0
+Pedro,H,1,Spain,Spain,TRUE,2
 Pedro,H,2,Uruguay,Uruguay,TRUE,5
 Pedro,H,3,Saudi Arabia,Cape Verde,FALSE,0
-Pedro,H,4,Cape Verde,Spain,FALSE,0
+Pedro,H,4,Cape Verde,Saudi Arabia,FALSE,0
 Pedro,I,1,France,Norway,FALSE,0
 Pedro,I,2,Norway,France,FALSE,0
 Pedro,I,3,Senegal,Senegal,TRUE,5
