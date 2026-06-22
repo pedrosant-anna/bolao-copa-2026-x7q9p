@@ -2,9 +2,9 @@ participant,position,predicted_team,predicted_group,predicted_qualified,actual_t
 Gustavo,1,Japan,F,1,Sweden,F,1,0,0,6,FALSE
 Gustavo,2,Ecuador,E,1,Scotland,C,1,0,0,1,FALSE
 Gustavo,3,South Korea,A,1,Paraguay,D,1,0,-2,2,FALSE
-Gustavo,4,Paraguay,D,1,New Zealand,G,1,0,0,2,FALSE
-Gustavo,5,Bosnia and Herzegovina,B,1,Portugal,K,1,0,0,1,FALSE
-Gustavo,6,Senegal,I,1,Cape Verde,H,1,0,0,0,FALSE
+Gustavo,4,Paraguay,D,1,Cape Verde,H,1,0,0,2,FALSE
+Gustavo,5,Bosnia and Herzegovina,B,1,Belgium,G,1,0,0,1,FALSE
+Gustavo,6,Senegal,I,1,Portugal,K,1,0,0,1,FALSE
 Gustavo,7,Algeria,J,1,Czechia,A,1,0,-1,2,FALSE
 Gustavo,8,Saudi Arabia,H,1,Ecuador,E,1,0,-1,0,FALSE
 Gustavo,9,Ghana,L,0,Bosnia and Herzegovina,B,0,0,-3,2,FALSE
@@ -14,9 +14,9 @@ Gustavo,12,Iran,G,0,Senegal,I,0,0,-2,1,FALSE
 Pedro,1,United States,D,1,Sweden,F,1,0,0,6,FALSE
 Pedro,2,Ivory Coast,E,1,Scotland,C,1,0,0,1,FALSE
 Pedro,3,Senegal,I,1,Paraguay,D,1,0,-2,2,FALSE
-Pedro,4,Czechia,A,1,New Zealand,G,1,0,0,2,FALSE
-Pedro,5,Tunisia,F,1,Portugal,K,1,0,0,1,FALSE
-Pedro,6,Saudi Arabia,H,1,Cape Verde,H,1,0,0,0,FALSE
+Pedro,4,Czechia,A,1,Cape Verde,H,1,0,0,2,FALSE
+Pedro,5,Tunisia,F,1,Belgium,G,1,0,0,1,FALSE
+Pedro,6,Saudi Arabia,H,1,Portugal,K,1,0,0,1,FALSE
 Pedro,7,Bosnia and Herzegovina,B,1,Czechia,A,1,0,-1,2,FALSE
 Pedro,8,Ghana,L,1,Ecuador,E,1,0,-1,0,FALSE
 Pedro,9,Algeria,J,0,Bosnia and Herzegovina,B,0,0,-3,2,FALSE
