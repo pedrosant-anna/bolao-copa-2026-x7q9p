@@ -10,7 +10,7 @@ Gustavo,8,Saudi Arabia,H,1,Ecuador,E,1,0,-1,0,FALSE
 Gustavo,9,Ghana,L,0,Bosnia and Herzegovina,B,0,0,-3,2,FALSE
 Gustavo,10,Scotland,C,0,Panama,L,0,0,-1,0,FALSE
 Gustavo,11,Uzbekistan,K,0,Jordan,J,0,0,-2,1,FALSE
-Gustavo,12,Iran,G,0,Senegal,I,0,0,-2,1,FALSE
+Gustavo,12,Iran,G,0,Senegal,I,0,0,-3,3,FALSE
 Pedro,1,United States,D,1,Sweden,F,1,0,0,6,FALSE
 Pedro,2,Ivory Coast,E,1,Scotland,C,1,0,0,1,FALSE
 Pedro,3,Senegal,I,1,Paraguay,D,1,0,-2,2,FALSE
@@ -22,4 +22,4 @@ Pedro,8,Ghana,L,1,Ecuador,E,1,0,-1,0,FALSE
 Pedro,9,Algeria,J,0,Bosnia and Herzegovina,B,0,0,-3,2,FALSE
 Pedro,10,Scotland,C,0,Panama,L,0,0,-1,0,FALSE
 Pedro,11,Iran,G,0,Jordan,J,0,0,-2,1,FALSE
-Pedro,12,Congo DR,K,0,Senegal,I,0,0,-2,1,FALSE
+Pedro,12,Congo DR,K,0,Senegal,I,0,0,-3,3,FALSE
