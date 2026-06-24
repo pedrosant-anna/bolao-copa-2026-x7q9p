@@ -3,8 +3,8 @@ Gustavo,A,1,Czechia,Mexico,FALSE,0
 Gustavo,A,2,Mexico,South Korea,FALSE,0
 Gustavo,A,3,South Korea,Czechia,FALSE,0
 Gustavo,A,4,South Africa,South Africa,TRUE,2
-Gustavo,B,1,Switzerland,Canada,FALSE,0
-Gustavo,B,2,Canada,Switzerland,FALSE,0
+Gustavo,B,1,Switzerland,Switzerland,TRUE,2
+Gustavo,B,2,Canada,Canada,TRUE,5
 Gustavo,B,3,Bosnia and Herzegovina,Bosnia and Herzegovina,TRUE,5
 Gustavo,B,4,Qatar,Qatar,TRUE,2
 Gustavo,C,1,Brazil,Brazil,TRUE,2
@@ -51,8 +51,8 @@ Pedro,A,1,South Korea,Mexico,FALSE,0
 Pedro,A,2,Mexico,South Korea,FALSE,0
 Pedro,A,3,Czechia,Czechia,TRUE,5
 Pedro,A,4,South Africa,South Africa,TRUE,2
-Pedro,B,1,Switzerland,Canada,FALSE,0
-Pedro,B,2,Canada,Switzerland,FALSE,0
+Pedro,B,1,Switzerland,Switzerland,TRUE,2
+Pedro,B,2,Canada,Canada,TRUE,5
 Pedro,B,3,Bosnia and Herzegovina,Bosnia and Herzegovina,TRUE,5
 Pedro,B,4,Qatar,Qatar,TRUE,2
 Pedro,C,1,Brazil,Brazil,TRUE,2
