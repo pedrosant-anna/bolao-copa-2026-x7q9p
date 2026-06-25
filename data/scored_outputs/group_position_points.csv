@@ -1,8 +1,8 @@
 participant,group,position,team,actual_team,correct,points
 Gustavo,A,1,Czechia,Mexico,FALSE,0
-Gustavo,A,2,Mexico,South Korea,FALSE,0
-Gustavo,A,3,South Korea,Czechia,FALSE,0
-Gustavo,A,4,South Africa,South Africa,TRUE,2
+Gustavo,A,2,Mexico,South Africa,FALSE,0
+Gustavo,A,3,South Korea,South Korea,TRUE,5
+Gustavo,A,4,South Africa,Czechia,FALSE,0
 Gustavo,B,1,Switzerland,Switzerland,TRUE,2
 Gustavo,B,2,Canada,Canada,TRUE,5
 Gustavo,B,3,Bosnia and Herzegovina,Bosnia and Herzegovina,TRUE,5
@@ -48,9 +48,9 @@ Gustavo,L,2,Croatia,Ghana,FALSE,0
 Gustavo,L,3,Ghana,Croatia,FALSE,0
 Gustavo,L,4,Panama,Panama,TRUE,2
 Pedro,A,1,South Korea,Mexico,FALSE,0
-Pedro,A,2,Mexico,South Korea,FALSE,0
-Pedro,A,3,Czechia,Czechia,TRUE,5
-Pedro,A,4,South Africa,South Africa,TRUE,2
+Pedro,A,2,Mexico,South Africa,FALSE,0
+Pedro,A,3,Czechia,South Korea,FALSE,0
+Pedro,A,4,South Africa,Czechia,FALSE,0
 Pedro,B,1,Switzerland,Switzerland,TRUE,2
 Pedro,B,2,Canada,Canada,TRUE,5
 Pedro,B,3,Bosnia and Herzegovina,Bosnia and Herzegovina,TRUE,5
