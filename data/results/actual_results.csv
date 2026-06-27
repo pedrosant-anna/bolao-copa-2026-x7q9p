@@ -61,10 +61,10 @@ match_id,source_match_id,source,stage,group,date,time,team1,team2,team1_goals,te
 60,760469,espn,Group Stage,D,2026-06-25,22:00:00,Paraguay,Australia,0,0,NA,STATUS_FULL_TIME,TRUE
 61,760475,espn,Group Stage,I,2026-06-26,15:00:00,Norway,France,1,4,France,STATUS_FULL_TIME,TRUE
 62,760474,espn,Group Stage,I,2026-06-26,15:00:00,Senegal,Iraq,5,0,Senegal,STATUS_FULL_TIME,TRUE
-63,760479,espn,Group Stage,H,2026-06-26,20:00:00,Uruguay,Spain,NA,NA,NA,STATUS_SCHEDULED,FALSE
-64,760478,espn,Group Stage,H,2026-06-26,20:00:00,Cape Verde,Saudi Arabia,NA,NA,NA,STATUS_SCHEDULED,FALSE
-65,760477,espn,Group Stage,G,2026-06-26,23:00:00,New Zealand,Belgium,NA,NA,NA,STATUS_SCHEDULED,FALSE
-66,760476,espn,Group Stage,G,2026-06-26,23:00:00,Egypt,Iran,NA,NA,NA,STATUS_SCHEDULED,FALSE
+63,760479,espn,Group Stage,H,2026-06-26,20:00:00,Uruguay,Spain,0,1,Spain,STATUS_FULL_TIME,TRUE
+64,760478,espn,Group Stage,H,2026-06-26,20:00:00,Cape Verde,Saudi Arabia,0,0,NA,STATUS_FULL_TIME,TRUE
+65,760477,espn,Group Stage,G,2026-06-26,23:00:00,New Zealand,Belgium,NA,NA,NA,STATUS_SECOND_HALF,FALSE
+66,760476,espn,Group Stage,G,2026-06-26,23:00:00,Egypt,Iran,NA,NA,NA,STATUS_SECOND_HALF,FALSE
 67,760485,espn,Group Stage,L,2026-06-27,17:00:00,Panama,England,NA,NA,NA,STATUS_SCHEDULED,FALSE
 68,760480,espn,Group Stage,L,2026-06-27,17:00:00,Croatia,Ghana,NA,NA,NA,STATUS_SCHEDULED,FALSE
 69,760481,espn,Group Stage,K,2026-06-27,19:30:00,Colombia,Portugal,NA,NA,NA,STATUS_SCHEDULED,FALSE

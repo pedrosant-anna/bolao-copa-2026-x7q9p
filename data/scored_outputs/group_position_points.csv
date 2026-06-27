@@ -28,8 +28,8 @@ Gustavo,G,2,Egypt,Iran,FALSE,0
 Gustavo,G,3,Iran,Belgium,FALSE,0
 Gustavo,G,4,New Zealand,New Zealand,TRUE,2
 Gustavo,H,1,Spain,Spain,TRUE,2
-Gustavo,H,2,Uruguay,Uruguay,TRUE,5
-Gustavo,H,3,Saudi Arabia,Cape Verde,FALSE,0
+Gustavo,H,2,Uruguay,Cape Verde,FALSE,0
+Gustavo,H,3,Saudi Arabia,Uruguay,FALSE,0
 Gustavo,H,4,Cape Verde,Saudi Arabia,FALSE,0
 Gustavo,I,1,France,France,TRUE,2
 Gustavo,I,2,Norway,Norway,TRUE,5
@@ -76,8 +76,8 @@ Pedro,G,2,Egypt,Iran,FALSE,0
 Pedro,G,3,Iran,Belgium,FALSE,0
 Pedro,G,4,New Zealand,New Zealand,TRUE,2
 Pedro,H,1,Spain,Spain,TRUE,2
-Pedro,H,2,Uruguay,Uruguay,TRUE,5
-Pedro,H,3,Saudi Arabia,Cape Verde,FALSE,0
+Pedro,H,2,Uruguay,Cape Verde,FALSE,0
+Pedro,H,3,Saudi Arabia,Uruguay,FALSE,0
 Pedro,H,4,Cape Verde,Saudi Arabia,FALSE,0
 Pedro,I,1,France,France,TRUE,2
 Pedro,I,2,Norway,Norway,TRUE,5
