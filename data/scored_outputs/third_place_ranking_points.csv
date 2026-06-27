@@ -4,11 +4,11 @@ Gustavo,2,Ecuador,E,1,Ecuador,E,1,1,0,2,TRUE
 Gustavo,3,South Korea,A,1,Bosnia and Herzegovina,B,1,0,-1,5,FALSE
 Gustavo,4,Paraguay,D,1,Paraguay,D,1,1,-2,2,TRUE
 Gustavo,5,Bosnia and Herzegovina,B,1,Senegal,I,1,0,2,8,FALSE
-Gustavo,6,Senegal,I,1,Croatia,L,1,0,-1,3,FALSE
-Gustavo,7,Algeria,J,1,South Korea,A,1,0,-1,2,FALSE
-Gustavo,8,Saudi Arabia,H,1,Algeria,J,1,0,-2,2,FALSE
-Gustavo,9,Ghana,L,0,Scotland,C,0,0,-3,1,FALSE
-Gustavo,10,Scotland,C,0,Belgium,G,0,0,0,1,FALSE
+Gustavo,6,Senegal,I,1,Iran,G,1,0,0,3,FALSE
+Gustavo,7,Algeria,J,1,Croatia,L,1,0,-1,3,FALSE
+Gustavo,8,Saudi Arabia,H,1,South Korea,A,1,0,-1,2,FALSE
+Gustavo,9,Ghana,L,0,Algeria,J,0,0,-2,2,FALSE
+Gustavo,10,Scotland,C,0,Scotland,C,0,1,-3,1,TRUE
 Gustavo,11,Uzbekistan,K,0,Uruguay,H,0,0,-1,3,FALSE
 Gustavo,12,Iran,G,0,Congo DR,K,0,0,-1,1,FALSE
 Pedro,1,United States,D,1,Sweden,F,1,0,0,7,FALSE
@@ -16,10 +16,10 @@ Pedro,2,Ivory Coast,E,1,Ecuador,E,1,0,0,2,FALSE
 Pedro,3,Senegal,I,1,Bosnia and Herzegovina,B,1,0,-1,5,FALSE
 Pedro,4,Czechia,A,1,Paraguay,D,1,0,-2,2,FALSE
 Pedro,5,Tunisia,F,1,Senegal,I,1,0,2,8,FALSE
-Pedro,6,Saudi Arabia,H,1,Croatia,L,1,0,-1,3,FALSE
-Pedro,7,Bosnia and Herzegovina,B,1,South Korea,A,1,0,-1,2,FALSE
-Pedro,8,Ghana,L,1,Algeria,J,1,0,-2,2,FALSE
-Pedro,9,Algeria,J,0,Scotland,C,0,0,-3,1,FALSE
-Pedro,10,Scotland,C,0,Belgium,G,0,0,0,1,FALSE
+Pedro,6,Saudi Arabia,H,1,Iran,G,1,0,0,3,FALSE
+Pedro,7,Bosnia and Herzegovina,B,1,Croatia,L,1,0,-1,3,FALSE
+Pedro,8,Ghana,L,1,South Korea,A,1,0,-1,2,FALSE
+Pedro,9,Algeria,J,0,Algeria,J,0,1,-2,2,TRUE
+Pedro,10,Scotland,C,0,Scotland,C,0,1,-3,1,TRUE
 Pedro,11,Iran,G,0,Uruguay,H,0,0,-1,3,FALSE
 Pedro,12,Congo DR,K,0,Congo DR,K,0,1,-1,1,TRUE
