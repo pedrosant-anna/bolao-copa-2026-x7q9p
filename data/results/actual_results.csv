@@ -65,12 +65,12 @@ match_id,source_match_id,source,stage,group,date,time,team1,team2,team1_goals,te
 64,760478,espn,Group Stage,H,2026-06-26,20:00:00,Cape Verde,Saudi Arabia,0,0,NA,STATUS_FULL_TIME,TRUE
 65,760477,espn,Group Stage,G,2026-06-26,23:00:00,New Zealand,Belgium,1,5,Belgium,STATUS_FULL_TIME,TRUE
 66,760476,espn,Group Stage,G,2026-06-26,23:00:00,Egypt,Iran,1,1,NA,STATUS_FULL_TIME,TRUE
-67,760485,espn,Group Stage,L,2026-06-27,17:00:00,Panama,England,NA,NA,NA,STATUS_SECOND_HALF,FALSE
-68,760480,espn,Group Stage,L,2026-06-27,17:00:00,Croatia,Ghana,NA,NA,NA,STATUS_IN_PROGRESS,FALSE
-69,760481,espn,Group Stage,K,2026-06-27,19:30:00,Colombia,Portugal,NA,NA,NA,STATUS_SCHEDULED,FALSE
-70,760482,espn,Group Stage,K,2026-06-27,19:30:00,Congo DR,Uzbekistan,NA,NA,NA,STATUS_SCHEDULED,FALSE
-71,760483,espn,Group Stage,J,2026-06-27,22:00:00,Argentina,Jordan,NA,NA,NA,STATUS_SCHEDULED,FALSE
-72,760484,espn,Group Stage,J,2026-06-27,22:00:00,Algeria,Austria,NA,NA,NA,STATUS_SCHEDULED,FALSE
+67,760485,espn,Group Stage,L,2026-06-27,17:00:00,Panama,England,0,2,England,STATUS_FULL_TIME,TRUE
+68,760480,espn,Group Stage,L,2026-06-27,17:00:00,Croatia,Ghana,2,1,Croatia,STATUS_FULL_TIME,TRUE
+69,760481,espn,Group Stage,K,2026-06-27,19:30:00,Colombia,Portugal,0,0,NA,STATUS_FULL_TIME,TRUE
+70,760482,espn,Group Stage,K,2026-06-27,19:30:00,Congo DR,Uzbekistan,3,1,Congo DR,STATUS_FULL_TIME,TRUE
+71,760483,espn,Group Stage,J,2026-06-27,22:00:00,Argentina,Jordan,3,1,Argentina,STATUS_FULL_TIME,TRUE
+72,760484,espn,Group Stage,J,2026-06-27,22:00:00,Algeria,Austria,3,3,NA,STATUS_FULL_TIME,TRUE
 73,NA,espn,Round of 32,NA,2026-06-28,15:00:00,Group A runner-up,Group B runner-up,NA,NA,NA,SCHEDULED,FALSE
 74,NA,espn,Round of 32,NA,2026-06-29,13:00:00,Group C winner,Group F runner-up,NA,NA,NA,SCHEDULED,FALSE
 75,NA,espn,Round of 32,NA,2026-06-29,16:30:00,Group E winner,Group A/B/C/D/F third place,NA,NA,NA,SCHEDULED,FALSE
