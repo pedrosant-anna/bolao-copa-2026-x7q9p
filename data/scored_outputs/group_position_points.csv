@@ -44,8 +44,8 @@ Gustavo,K,2,Colombia,Portugal,FALSE,0
 Gustavo,K,3,Uzbekistan,Congo DR,FALSE,0
 Gustavo,K,4,Congo DR,Uzbekistan,FALSE,0
 Gustavo,L,1,England,England,TRUE,2
-Gustavo,L,2,Croatia,Croatia,TRUE,5
-Gustavo,L,3,Ghana,Ghana,TRUE,5
+Gustavo,L,2,Croatia,Ghana,FALSE,0
+Gustavo,L,3,Ghana,Croatia,FALSE,0
 Gustavo,L,4,Panama,Panama,TRUE,2
 Pedro,A,1,South Korea,Mexico,FALSE,0
 Pedro,A,2,Mexico,South Africa,FALSE,0
@@ -92,6 +92,6 @@ Pedro,K,2,Colombia,Portugal,FALSE,0
 Pedro,K,3,Congo DR,Congo DR,TRUE,5
 Pedro,K,4,Uzbekistan,Uzbekistan,TRUE,2
 Pedro,L,1,England,England,TRUE,2
-Pedro,L,2,Croatia,Croatia,TRUE,5
-Pedro,L,3,Ghana,Ghana,TRUE,5
+Pedro,L,2,Croatia,Ghana,FALSE,0
+Pedro,L,3,Ghana,Croatia,FALSE,0
 Pedro,L,4,Panama,Panama,TRUE,2
