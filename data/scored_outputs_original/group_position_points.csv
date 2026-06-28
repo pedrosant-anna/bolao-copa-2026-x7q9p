@@ -1,0 +1,97 @@
+participant,group,position,team,actual_team,correct,points
+Gustavo,A,1,Czechia,Mexico,FALSE,0
+Gustavo,A,2,Mexico,South Africa,FALSE,0
+Gustavo,A,3,South Korea,South Korea,TRUE,5
+Gustavo,A,4,South Africa,Czechia,FALSE,0
+Gustavo,B,1,Switzerland,Switzerland,TRUE,2
+Gustavo,B,2,Canada,Canada,TRUE,5
+Gustavo,B,3,Bosnia and Herzegovina,Bosnia and Herzegovina,TRUE,5
+Gustavo,B,4,Qatar,Qatar,TRUE,2
+Gustavo,C,1,Brazil,Brazil,TRUE,2
+Gustavo,C,2,Morocco,Morocco,TRUE,5
+Gustavo,C,3,Scotland,Scotland,TRUE,5
+Gustavo,C,4,Haiti,Haiti,TRUE,2
+Gustavo,D,1,Türkiye,United States,FALSE,0
+Gustavo,D,2,United States,Australia,FALSE,0
+Gustavo,D,3,Paraguay,Paraguay,TRUE,5
+Gustavo,D,4,Australia,Türkiye,FALSE,0
+Gustavo,E,1,Germany,Germany,TRUE,2
+Gustavo,E,2,Ivory Coast,Ivory Coast,TRUE,5
+Gustavo,E,3,Ecuador,Ecuador,TRUE,5
+Gustavo,E,4,Curaçao,Curaçao,TRUE,2
+Gustavo,F,1,Netherlands,Netherlands,TRUE,2
+Gustavo,F,2,Sweden,Japan,FALSE,0
+Gustavo,F,3,Japan,Sweden,FALSE,0
+Gustavo,F,4,Tunisia,Tunisia,TRUE,2
+Gustavo,G,1,Belgium,Belgium,TRUE,2
+Gustavo,G,2,Egypt,Egypt,TRUE,5
+Gustavo,G,3,Iran,Iran,TRUE,5
+Gustavo,G,4,New Zealand,New Zealand,TRUE,2
+Gustavo,H,1,Spain,Spain,TRUE,2
+Gustavo,H,2,Uruguay,Cape Verde,FALSE,0
+Gustavo,H,3,Saudi Arabia,Uruguay,FALSE,0
+Gustavo,H,4,Cape Verde,Saudi Arabia,FALSE,0
+Gustavo,I,1,France,France,TRUE,2
+Gustavo,I,2,Norway,Norway,TRUE,5
+Gustavo,I,3,Senegal,Senegal,TRUE,5
+Gustavo,I,4,Iraq,Iraq,TRUE,2
+Gustavo,J,1,Argentina,Argentina,TRUE,2
+Gustavo,J,2,Austria,Austria,TRUE,5
+Gustavo,J,3,Algeria,Algeria,TRUE,5
+Gustavo,J,4,Jordan,Jordan,TRUE,2
+Gustavo,K,1,Portugal,Colombia,FALSE,0
+Gustavo,K,2,Colombia,Portugal,FALSE,0
+Gustavo,K,3,Uzbekistan,Congo DR,FALSE,0
+Gustavo,K,4,Congo DR,Uzbekistan,FALSE,0
+Gustavo,L,1,England,England,TRUE,2
+Gustavo,L,2,Croatia,Croatia,TRUE,5
+Gustavo,L,3,Ghana,Ghana,TRUE,5
+Gustavo,L,4,Panama,Panama,TRUE,2
+Pedro,A,1,South Korea,Mexico,FALSE,0
+Pedro,A,2,Mexico,South Africa,FALSE,0
+Pedro,A,3,Czechia,South Korea,FALSE,0
+Pedro,A,4,South Africa,Czechia,FALSE,0
+Pedro,B,1,Switzerland,Switzerland,TRUE,2
+Pedro,B,2,Canada,Canada,TRUE,5
+Pedro,B,3,Bosnia and Herzegovina,Bosnia and Herzegovina,TRUE,5
+Pedro,B,4,Qatar,Qatar,TRUE,2
+Pedro,C,1,Brazil,Brazil,TRUE,2
+Pedro,C,2,Morocco,Morocco,TRUE,5
+Pedro,C,3,Scotland,Scotland,TRUE,5
+Pedro,C,4,Haiti,Haiti,TRUE,2
+Pedro,D,1,Paraguay,United States,FALSE,0
+Pedro,D,2,Türkiye,Australia,FALSE,0
+Pedro,D,3,United States,Paraguay,FALSE,0
+Pedro,D,4,Australia,Türkiye,FALSE,0
+Pedro,E,1,Germany,Germany,TRUE,2
+Pedro,E,2,Ecuador,Ivory Coast,FALSE,0
+Pedro,E,3,Ivory Coast,Ecuador,FALSE,0
+Pedro,E,4,Curaçao,Curaçao,TRUE,2
+Pedro,F,1,Netherlands,Netherlands,TRUE,2
+Pedro,F,2,Japan,Japan,TRUE,5
+Pedro,F,3,Tunisia,Sweden,FALSE,0
+Pedro,F,4,Sweden,Tunisia,FALSE,0
+Pedro,G,1,Belgium,Belgium,TRUE,2
+Pedro,G,2,Egypt,Egypt,TRUE,5
+Pedro,G,3,Iran,Iran,TRUE,5
+Pedro,G,4,New Zealand,New Zealand,TRUE,2
+Pedro,H,1,Spain,Spain,TRUE,2
+Pedro,H,2,Uruguay,Cape Verde,FALSE,0
+Pedro,H,3,Saudi Arabia,Uruguay,FALSE,0
+Pedro,H,4,Cape Verde,Saudi Arabia,FALSE,0
+Pedro,I,1,France,France,TRUE,2
+Pedro,I,2,Norway,Norway,TRUE,5
+Pedro,I,3,Senegal,Senegal,TRUE,5
+Pedro,I,4,Iraq,Iraq,TRUE,2
+Pedro,J,1,Argentina,Argentina,TRUE,2
+Pedro,J,2,Austria,Austria,TRUE,5
+Pedro,J,3,Algeria,Algeria,TRUE,5
+Pedro,J,4,Jordan,Jordan,TRUE,2
+Pedro,K,1,Portugal,Colombia,FALSE,0
+Pedro,K,2,Colombia,Portugal,FALSE,0
+Pedro,K,3,Congo DR,Congo DR,TRUE,5
+Pedro,K,4,Uzbekistan,Uzbekistan,TRUE,2
+Pedro,L,1,England,England,TRUE,2
+Pedro,L,2,Croatia,Croatia,TRUE,5
+Pedro,L,3,Ghana,Ghana,TRUE,5
+Pedro,L,4,Panama,Panama,TRUE,2

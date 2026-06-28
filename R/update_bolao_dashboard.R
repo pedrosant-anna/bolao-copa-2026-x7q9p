@@ -14,6 +14,8 @@
 #     data/matches.csv
 #     data/predictions/predictions_pedro.csv
 #     data/predictions/predictions_friend.csv
+#     data/predictions_corrected/            # corrected knockout CSVs, optional
+#     data/knockout_correct_path.csv         # corrected knockout fixture/path CSV, optional
 #     data/results/actual_results.csv        # generated automatically
 #     docs/index.html                        # generated automatically
 #
@@ -62,6 +64,14 @@ source(score_path)
 
 paths <- list(
   predictions_dir = file.path(root_dir, "data", "predictions"),
+  predictions_original_fixed_dir = file.path(root_dir, "data", "_predictions_original_fixed"),
+  predictions_corrected_dir = file.path(root_dir, "data", "predictions_corrected"),
+  predictions_corrected_merged_dir = file.path(root_dir, "data", "_predictions_corrected_merged"),
+  knockout_correct_path_csv = dplyr::case_when(
+    file.exists(file.path(root_dir, "data", "knockout_correct_path.csv")) ~ file.path(root_dir, "data", "knockout_correct_path.csv"),
+    file.exists(file.path(root_dir, "knockout_correct_path.csv")) ~ file.path(root_dir, "knockout_correct_path.csv"),
+    TRUE ~ NA_character_
+  ),
   matches_csv = dplyr::case_when(
     file.exists(file.path(root_dir, "data", "matches.csv")) ~ file.path(root_dir, "data", "matches.csv"),
     file.exists(file.path(root_dir, "matches.csv")) ~ file.path(root_dir, "matches.csv"),
@@ -109,6 +119,9 @@ normalize_team <- function(x) {
     "turkiye" = "turkey",
     "bosnia and herzegovina" = "bosnia herzegovina",
     "bosnia herzegovina" = "bosnia herzegovina",
+    "dr congo" = "congo dr",
+    "congo dr" = "congo dr",
+    "democratic republic of congo" = "congo dr",
     .default = z
   )
 }
@@ -283,6 +296,28 @@ align_results_to_schedule <- function(raw_results, schedule_path) {
       team2_norm = normalize_team(team2)
     )
 
+  # If available, use the corrected knockout path for matches 73-104.
+  # This keeps ESPN result matching aligned with the corrected Round of 32 bracket.
+  if (!is.na(paths$knockout_correct_path_csv) && file.exists(paths$knockout_correct_path_csv)) {
+    ko_schedule <- read_csv(paths$knockout_correct_path_csv, show_col_types = FALSE) %>%
+      mutate(
+        match_id = as.integer(match_id),
+        date = as.character(date),
+        team1_norm = normalize_team(team1),
+        team2_norm = normalize_team(team2)
+      )
+
+    missing_cols <- setdiff(names(schedule), names(ko_schedule))
+    for (col in missing_cols) ko_schedule[[col]] <- NA
+
+    ko_schedule <- ko_schedule %>% select(all_of(names(schedule)))
+
+    schedule <- bind_rows(
+      schedule %>% filter(!(match_id %in% ko_schedule$match_id)),
+      ko_schedule
+    ) %>% arrange(match_id)
+  }
+
   raw <- raw_results %>%
     mutate(
       date = as.character(date),
@@ -448,7 +483,7 @@ team_pt <- c(
   "Algeria" = "Argélia", "Argentina" = "Argentina", "Australia" = "Austrália",
   "Austria" = "Áustria", "Belgium" = "Bélgica", "Bosnia and Herzegovina" = "Bósnia e Herzegovina",
   "Brazil" = "Brasil", "Canada" = "Canadá", "Cape Verde" = "Cabo Verde",
-  "Colombia" = "Colômbia", "Congo DR" = "RD Congo", "Croatia" = "Croácia",
+  "Colombia" = "Colômbia", "Congo DR" = "RD Congo", "DR Congo" = "RD Congo", "Croatia" = "Croácia",
   "Curaçao" = "Curaçao", "Czechia" = "Tchéquia", "Ecuador" = "Equador",
   "Egypt" = "Egito", "England" = "Inglaterra", "France" = "França",
   "Germany" = "Alemanha", "Ghana" = "Gana", "Haiti" = "Haiti",
@@ -480,7 +515,7 @@ team_pt <- c(
 team_code <- c(
   "Algeria" = "ALG", "Argentina" = "ARG", "Australia" = "AUS", "Austria" = "AUT",
   "Belgium" = "BEL", "Bosnia and Herzegovina" = "BIH", "Brazil" = "BRA", "Canada" = "CAN",
-  "Cape Verde" = "CPV", "Colombia" = "COL", "Congo DR" = "COD", "Croatia" = "CRO",
+  "Cape Verde" = "CPV", "Colombia" = "COL", "Congo DR" = "COD", "DR Congo" = "COD", "Croatia" = "CRO",
   "Curaçao" = "CUW", "Czechia" = "CZE", "Ecuador" = "ECU", "Egypt" = "EGY",
   "England" = "ENG", "France" = "FRA", "Germany" = "GER", "Ghana" = "GHA",
   "Haiti" = "HAI", "Iran" = "IRN", "Iraq" = "IRQ", "Ivory Coast" = "CIV",
@@ -496,7 +531,7 @@ team_code <- c(
 flag_code <- c(
   "Algeria" = "dz", "Argentina" = "ar", "Australia" = "au", "Austria" = "at",
   "Belgium" = "be", "Bosnia and Herzegovina" = "ba", "Brazil" = "br", "Canada" = "ca",
-  "Cape Verde" = "cv", "Colombia" = "co", "Congo DR" = "cd", "Croatia" = "hr",
+  "Cape Verde" = "cv", "Colombia" = "co", "Congo DR" = "cd", "DR Congo" = "cd", "Croatia" = "hr",
   "Curaçao" = "cw", "Czechia" = "cz", "Ecuador" = "ec", "Egypt" = "eg",
   "England" = "gb-eng", "France" = "fr", "Germany" = "de", "Ghana" = "gh",
   "Haiti" = "ht", "Iran" = "ir", "Iraq" = "iq", "Ivory Coast" = "ci",
@@ -864,7 +899,7 @@ make_top_tree <- function(ko) {
   paste0(
     "<div class='natural-bracket'><h3>Metade superior do chaveamento</h3><div class='tree'>",
     make_round_label_row(c("Fase de 32", rep("", 7)), rep(1, 8)),
-    make_tree_row(ko, c(73, 75, 74, 77, 83, 84, 81, 82), 1),
+    make_tree_row(ko, c(74, 77, 73, 75, 83, 84, 81, 82), 1),
     make_connector_row(4, 2, "down"),
     make_round_label_row(c("Oitavas", "", "", ""), rep(2, 4)),
     make_tree_row(ko, c(89, 90, 93, 94), 2),
@@ -976,6 +1011,38 @@ make_participant_tab_html <- function(predictions, participant_name) {
   )
 }
 
+
+make_participant_tab_html_versioned <- function(predictions_original, predictions_corrected, participant_name) {
+  p_original <- prediction_rows_for_participant(predictions_original, participant_name)
+  p_corrected <- prediction_rows_for_participant(predictions_corrected, participant_name)
+  tab_id <- paste0("player_", safe_tab_id(participant_name))
+  original_id <- paste0(tab_id, "_original")
+  corrected_id <- paste0(tab_id, "_corrected")
+
+  paste0(
+    "<section id='", html_escape(tab_id), "' class='tab-panel'>",
+    "<div class='card player-header'><h2>Palpites de ", html_escape(participant_name), "</h2>",
+    "<p class='muted'>Compare o CSV original com a versão que mantém a fase de grupos original e troca apenas o mata-mata pelo chaveamento corrigido.</p>",
+    "<div class='version-toggle'>",
+    "<button class='version-button active' onclick=\"showPredictionVersion('", html_escape(original_id), "','", html_escape(corrected_id), "', this)\">Original</button>",
+    "<button class='version-button' onclick=\"showPredictionVersion('", html_escape(corrected_id), "','", html_escape(original_id), "', this)\">Mata-mata corrigido</button>",
+    "</div></div>",
+
+    "<div id='", html_escape(original_id), "' class='prediction-version-panel'>",
+    "<section class='card'><h2>Fase de grupos</h2>", make_groups_view_html(p_original), "</section>",
+    make_third_place_view_html(p_original),
+    "<section class='card'><h2>Mata-mata previsto</h2>", make_knockout_view_html(p_original), "</section>",
+    "</div>",
+
+    "<div id='", html_escape(corrected_id), "' class='prediction-version-panel hidden'>",
+    "<section class='card'><h2>Fase de grupos</h2>", make_groups_view_html(p_corrected), "</section>",
+    make_third_place_view_html(p_corrected),
+    "<section class='card'><h2>Mata-mata previsto corrigido</h2>", make_knockout_view_html(p_corrected), "</section>",
+    "</div>",
+    "</section>"
+  )
+}
+
 make_rules_html <- function() {
   paste0(
     "<section id='tab_rules' class='tab-panel'>",
@@ -1003,19 +1070,41 @@ make_rules_html <- function() {
   )
 }
 
-make_dashboard <- function(scored, results, predictions, output_path) {
+make_dashboard <- function(scored_original, scored_corrected, results, predictions_original, predictions_corrected, output_path) {
   updated_at <- format(Sys.time(), "%d/%m/%Y %H:%M:%S %Z")
   played_n <- sum(results$played, na.rm = TRUE)
-  participants <- scored$leaderboard %>% pull(participant) %>% as.character()
+  participants <- scored_original$leaderboard %>% pull(participant) %>% as.character()
   if (length(participants) == 0) {
-    participants <- predictions %>% pull(participant) %>% unique() %>% na.omit() %>% as.character()
+    participants <- bind_rows(predictions_original, predictions_corrected) %>% pull(participant) %>% unique() %>% na.omit() %>% as.character()
   }
 
   tabs <- make_tabs_nav(participants)
-  leaderboard_html <- make_leaderboard_html(scored$leaderboard)
-  breakdown_html <- make_score_breakdown_html(scored$leaderboard)
-  match_html <- make_match_cards_html(scored$match_points, results)
-  participant_tabs <- paste0(purrr::map_chr(participants, ~ make_participant_tab_html(predictions, .x)), collapse = "\n")
+
+  score_panel_html <- paste0(
+    "<div class='version-toggle score-version-toggle'>",
+    "<button id='score_btn_original' class='version-button active' onclick=\"showScoreVersion('original', this)\">Pontuação: original</button>",
+    "<button id='score_btn_corrected' class='version-button' onclick=\"showScoreVersion('corrected', this)\">Pontuação: mata-mata corrigido</button>",
+    "</div>",
+    "<div id='score_version_original' class='score-version-panel'>",
+    make_leaderboard_html(scored_original$leaderboard),
+    make_score_breakdown_html(scored_original$leaderboard),
+    make_match_cards_html(scored_original$match_points, results),
+    "</div>",
+    "<div id='score_version_corrected' class='score-version-panel hidden'>",
+    make_leaderboard_html(scored_corrected$leaderboard),
+    make_score_breakdown_html(scored_corrected$leaderboard),
+    make_match_cards_html(scored_corrected$match_points, results),
+    "</div>"
+  )
+
+  participant_tabs <- paste0(
+    purrr::map_chr(
+      participants,
+      ~ make_participant_tab_html_versioned(predictions_original, predictions_corrected, .x)
+    ),
+    collapse = "\n"
+  )
+
   rules_html <- make_rules_html()
 
   html <- paste0("<!DOCTYPE html>
@@ -1037,6 +1126,12 @@ make_dashboard <- function(scored, results, predictions, output_path) {
     .tabs { position:sticky; top:0; z-index:20; display:flex; gap:8px; flex-wrap:wrap; background:rgba(246,247,251,.94); backdrop-filter:blur(8px); padding:10px 0; margin-bottom:10px; }
     .tab-button { border:1px solid var(--line); background:white; color:var(--text); border-radius:999px; padding:10px 13px; cursor:pointer; font-weight:800; }
     .tab-button.active { background:var(--accent); border-color:var(--accent); color:white; }
+    .version-toggle { display:flex; gap:8px; flex-wrap:wrap; margin:8px 0 14px; }
+    .version-button { border:1px solid var(--line); background:white; color:var(--text); border-radius:999px; padding:10px 13px; cursor:pointer; font-weight:900; }
+    .version-button.active { background:var(--gold); border-color:var(--gold); color:#111827; }
+    .player-header { position:sticky; top:64px; z-index:18; border-top:5px solid var(--gold); }
+    .player-header .version-toggle { margin-bottom:0; }
+    .score-version-panel.hidden, .prediction-version-panel.hidden { display:none; }
     .tab-panel { display:none; }
     .tab-panel.active { display:block; }
     .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px; margin:16px 0; box-shadow:0 6px 18px rgba(0,0,0,.04); }
@@ -1125,7 +1220,7 @@ make_dashboard <- function(scored, results, predictions, output_path) {
     .weights { display:flex; gap:8px; flex-wrap:wrap; }
     .weights span { background:#eef7f6; color:#0f766e; border:1px solid #cde7e4; border-radius:999px; padding:6px 10px; font-weight:900; }
     footer { color:var(--muted); text-align:center; padding:18px; }
-    @media(max-width:800px) { .wrap{padding:12px;} header h1{font-size:26px;} .tabs{position:static;} th,td{font-size:13px;padding:8px 5px;} .leaderboard th:nth-child(4), .leaderboard td:nth-child(4), .leaderboard th:nth-child(5), .leaderboard td:nth-child(5), .leaderboard th:nth-child(6), .leaderboard td:nth-child(6), .leaderboard th:nth-child(7), .leaderboard td:nth-child(7){display:none;} .groups-grid{grid-template-columns:1fr;} .group-card-grid{grid-template-columns:1fr;} .guess-line{grid-template-columns:1fr; text-align:center;} .score-pill{justify-self:center;} .natural-bracket,.tree,.round-label-row,.bracket-center{min-width:0;} .tree-row,.connector-row,.round-label-row{grid-template-columns:1fr;} .tree-cell,.round-label{grid-column:span 1!important;} .connector-row{display:none;} .center-layout{grid-template-columns:1fr;} .center-line{display:none;} }
+    @media(max-width:800px) { .wrap{padding:12px;} header h1{font-size:26px;} .tabs{position:static;} .player-header{top:0;} th,td{font-size:13px;padding:8px 5px;} .leaderboard th:nth-child(4), .leaderboard td:nth-child(4), .leaderboard th:nth-child(5), .leaderboard td:nth-child(5), .leaderboard th:nth-child(6), .leaderboard td:nth-child(6), .leaderboard th:nth-child(7), .leaderboard td:nth-child(7){display:none;} .groups-grid{grid-template-columns:1fr;} .group-card-grid{grid-template-columns:1fr;} .guess-line{grid-template-columns:1fr; text-align:center;} .score-pill{justify-self:center;} .natural-bracket,.tree,.round-label-row,.bracket-center{min-width:0;} .tree-row,.connector-row,.round-label-row{grid-template-columns:1fr;} .tree-cell,.round-label{grid-column:span 1!important;} .connector-row{display:none;} .center-layout{grid-template-columns:1fr;} .center-line{display:none;} }
   </style>
 </head>
 <body>
@@ -1139,9 +1234,7 @@ make_dashboard <- function(scored, results, predictions, output_path) {
     ", tabs, "
 
     <section id='tab_score' class='tab-panel active'>
-      ", leaderboard_html, "
-      ", breakdown_html, "
-      ", match_html, "
+      ", score_panel_html, "
     </section>
 
     ", participant_tabs, "
@@ -1159,12 +1252,171 @@ make_dashboard <- function(scored, results, predictions, output_path) {
       if (button) button.classList.add('active');
       window.scrollTo({top: 0, behavior: 'smooth'});
     }
+
+    function showScoreVersion(version, button) {
+      var original = document.getElementById('score_version_original');
+      var corrected = document.getElementById('score_version_corrected');
+      if (original) original.classList.toggle('hidden', version !== 'original');
+      if (corrected) corrected.classList.toggle('hidden', version !== 'corrected');
+      document.querySelectorAll('.score-version-toggle .version-button').forEach(function(x) { x.classList.remove('active'); });
+      if (button) button.classList.add('active');
+    }
+
+    function showPredictionVersion(showId, hideId, button) {
+      var showPanel = document.getElementById(showId);
+      var hidePanel = document.getElementById(hideId);
+      if (showPanel) showPanel.classList.remove('hidden');
+      if (hidePanel) hidePanel.classList.add('hidden');
+      var container = button ? button.closest('.tab-panel') : null;
+      if (container) {
+        container.querySelectorAll('.version-toggle .version-button').forEach(function(x) { x.classList.remove('active'); });
+      }
+      if (button) button.classList.add('active');
+    }
   </script>
 </body>
 </html>")
 
   writeLines(html, output_path)
   message("Dashboard written to: ", output_path)
+}
+
+
+# ------------------------------------------------------------
+# 6. Corrected knockout prediction helpers
+# ------------------------------------------------------------
+
+read_prediction_csv_chr <- function(path) {
+  read_csv(path, show_col_types = FALSE, col_types = cols(.default = col_character()))
+}
+
+get_prediction_participant <- function(df, fallback_path = NULL) {
+  if ("participant" %in% names(df) && any(!is.na(df$participant) & df$participant != "")) {
+    return(df$participant[which(!is.na(df$participant) & df$participant != "")[1]])
+  }
+
+  if (!is.null(fallback_path)) {
+    nm <- tools::file_path_sans_ext(basename(fallback_path))
+    nm <- str_remove(nm, "^predictions[_-]?")
+    nm <- str_remove(nm, "^palpites[_-]?mata[_-]?mata[_-]?corrigido[_-]?")
+    return(nm)
+  }
+
+  "participante"
+}
+
+repair_original_knockout_89_90 <- function(df) {
+  if (!("match_id" %in% names(df))) return(df)
+
+  out <- df %>%
+    mutate(match_id_num = suppressWarnings(as.integer(match_id)))
+
+  is_knockout_match <- !is.na(out$match_id_num) & out$match_id_num >= 73 & out$match_id_num <= 104
+
+  # In the first version of the form, the two top Round-of-16 slots were
+  # exported with match IDs 89 and 90 flipped. Repair the slot IDs so
+  # scores are compared with the correct official match.
+  out$match_id_num[is_knockout_match & out$match_id_num == 89] <- -90L
+  out$match_id_num[is_knockout_match & out$match_id_num == 90] <- -89L
+  out$match_id_num[out$match_id_num == -90L] <- 90L
+  out$match_id_num[out$match_id_num == -89L] <- 89L
+
+  if (any(is_knockout_match & suppressWarnings(as.integer(df$match_id)) == 97, na.rm = TRUE)) {
+    idx <- which(is_knockout_match & suppressWarnings(as.integer(df$match_id)) == 97)
+
+    if (all(c("team1", "team2") %in% names(out))) {
+      tmp <- out$team1[idx]
+      out$team1[idx] <- out$team2[idx]
+      out$team2[idx] <- tmp
+    }
+
+    if (all(c("pred_team1_goals", "pred_team2_goals") %in% names(out))) {
+      tmp <- out$pred_team1_goals[idx]
+      out$pred_team1_goals[idx] <- out$pred_team2_goals[idx]
+      out$pred_team2_goals[idx] <- tmp
+    }
+  }
+
+  out %>%
+    mutate(match_id = if_else(!is.na(match_id_num), as.character(match_id_num), as.character(match_id))) %>%
+    select(-match_id_num)
+}
+
+build_original_fixed_prediction_folder <- function(original_dir, fixed_dir) {
+  dir.create(fixed_dir, recursive = TRUE, showWarnings = FALSE)
+
+  old_files <- list.files(fixed_dir, pattern = "\\.csv$", full.names = TRUE)
+  if (length(old_files) > 0) file.remove(old_files)
+
+  original_files <- list.files(original_dir, pattern = "\\.csv$", full.names = TRUE)
+  if (length(original_files) == 0) stop("No original prediction CSV files found in: ", original_dir)
+
+  for (fp in original_files) {
+    original <- read_prediction_csv_chr(fp)
+    fixed <- repair_original_knockout_89_90(original)
+    write_csv(fixed, file.path(fixed_dir, basename(fp)))
+  }
+
+  invisible(fixed_dir)
+}
+
+build_corrected_prediction_folder <- function(original_dir, corrected_dir, merged_dir) {
+  dir.create(merged_dir, recursive = TRUE, showWarnings = FALSE)
+
+  old_files <- list.files(merged_dir, pattern = "\\.csv$", full.names = TRUE)
+  if (length(old_files) > 0) file.remove(old_files)
+
+  original_files <- list.files(original_dir, pattern = "\\.csv$", full.names = TRUE)
+  if (length(original_files) == 0) stop("No original prediction CSV files found in: ", original_dir)
+
+  corrected_files <- if (dir.exists(corrected_dir)) {
+    list.files(corrected_dir, pattern = "\\.csv$", full.names = TRUE)
+  } else {
+    character()
+  }
+
+  corrected_by_participant <- list()
+  if (length(corrected_files) > 0) {
+    for (fp in corrected_files) {
+      df <- read_prediction_csv_chr(fp)
+      part <- get_prediction_participant(df, fp)
+      corrected_by_participant[[normalize_key(part)]] <- df
+    }
+  }
+
+  for (fp in original_files) {
+    original <- read_prediction_csv_chr(fp)
+    part <- get_prediction_participant(original, fp)
+    corrected <- corrected_by_participant[[normalize_key(part)]]
+
+    if (!is.null(corrected)) {
+      original_without_knockout <- original %>%
+        mutate(match_id_num = suppressWarnings(as.integer(match_id))) %>%
+        # Keep all non-match rows exported by the original form, such as
+        # source == "group_ranking" and source == "third_place_ranking".
+        # These often have match_id == NA, so a plain filter(!(between(...)))
+        # would accidentally drop them and zero out group-ranking points.
+        filter(is.na(match_id_num) | !(match_id_num >= 73 & match_id_num <= 104)) %>%
+        select(-match_id_num)
+
+      corrected_knockout <- corrected %>%
+        mutate(match_id_num = suppressWarnings(as.integer(match_id))) %>%
+        filter(!is.na(match_id_num), match_id_num >= 73, match_id_num <= 104) %>%
+        select(-match_id_num) %>%
+        mutate(
+          participant = part,
+          source = if ("source" %in% names(.)) source else "knockout"
+        )
+
+      merged <- bind_rows(original_without_knockout, corrected_knockout)
+    } else {
+      merged <- original
+    }
+
+    write_csv(merged, file.path(merged_dir, basename(fp)))
+  }
+
+  invisible(merged_dir)
 }
 
 # ------------------------------------------------------------
@@ -1210,18 +1462,48 @@ if (length(prediction_files) == 0) {
   stop("No prediction CSV files found in: ", paths$predictions_dir)
 }
 
-predictions <- read_prediction_files(paths$predictions_dir) %>%
+build_original_fixed_prediction_folder(
+  original_dir = paths$predictions_dir,
+  fixed_dir = paths$predictions_original_fixed_dir
+)
+
+build_corrected_prediction_folder(
+  original_dir = paths$predictions_original_fixed_dir,
+  corrected_dir = paths$predictions_corrected_dir,
+  merged_dir = paths$predictions_corrected_merged_dir
+)
+
+predictions_original <- read_prediction_files(paths$predictions_original_fixed_dir) %>%
   mutate(
     participant = as.character(participant),
     source = if ("source" %in% names(.)) as.character(source) else NA_character_
   )
 
-scored <- score_bolao(
-  predictions_input = paths$predictions_dir,
+predictions_corrected <- read_prediction_files(paths$predictions_corrected_merged_dir) %>%
+  mutate(
+    participant = as.character(participant),
+    source = if ("source" %in% names(.)) as.character(source) else NA_character_
+  )
+
+scored_original <- score_bolao(
+  predictions_input = paths$predictions_original_fixed_dir,
   results_path = paths$results_csv,
-  output_dir = file.path(root_dir, "data", "scored_outputs")
+  output_dir = file.path(root_dir, "data", "scored_outputs_original")
 )
 
-make_dashboard(scored, results, predictions, paths$dashboard_html)
+scored_corrected <- score_bolao(
+  predictions_input = paths$predictions_corrected_merged_dir,
+  results_path = paths$results_csv,
+  output_dir = file.path(root_dir, "data", "scored_outputs_corrected")
+)
+
+make_dashboard(
+  scored_original = scored_original,
+  scored_corrected = scored_corrected,
+  results = results,
+  predictions_original = predictions_original,
+  predictions_corrected = predictions_corrected,
+  output_path = paths$dashboard_html
+)
 
 message("Done.")
