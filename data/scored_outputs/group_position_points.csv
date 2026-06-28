@@ -1,6 +1,6 @@
 participant,group,position,team,actual_team,correct,points
-Gustavo,A,1,Czechia,NA,NA,NA
-Gustavo,A,2,Mexico,NA,NA,NA
+Gustavo,A,1,Czechia,Mexico,FALSE,0
+Gustavo,A,2,Mexico,South Africa,FALSE,0
 Gustavo,A,3,South Korea,NA,NA,NA
 Gustavo,A,4,South Africa,NA,NA,NA
 Gustavo,B,1,Switzerland,NA,NA,NA
@@ -47,8 +47,8 @@ Gustavo,L,1,England,NA,NA,NA
 Gustavo,L,2,Croatia,NA,NA,NA
 Gustavo,L,3,Ghana,NA,NA,NA
 Gustavo,L,4,Panama,NA,NA,NA
-Pedro,A,1,South Korea,NA,NA,NA
-Pedro,A,2,Mexico,NA,NA,NA
+Pedro,A,1,South Korea,Mexico,FALSE,0
+Pedro,A,2,Mexico,South Africa,FALSE,0
 Pedro,A,3,Czechia,NA,NA,NA
 Pedro,A,4,South Africa,NA,NA,NA
 Pedro,B,1,Switzerland,NA,NA,NA
