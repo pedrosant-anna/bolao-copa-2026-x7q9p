@@ -1,0 +1,33 @@
+participant,source,match_id,stage,date,time,timezone,venue,stadium_name,city,country,team1,team2,pred_team1_goals,pred_team2_goals,advance_team
+Gustavo,knockout,73,Round of 32,2026-06-28,12:00 PM,PT,Los Angeles Stadium,SoFi Stadium,"Inglewood, California",United States,Canada,South Africa,2,1,
+Gustavo,knockout,74,Round of 32,2026-06-29,4:30 PM,ET,Boston Stadium,Gillette Stadium,"Foxborough, Massachusetts",United States,Germany,Paraguay,2,1,
+Gustavo,knockout,75,Round of 32,2026-06-29,7:00 PM,CT,Monterrey Stadium,Estadio BBVA,Guadalupe,Mexico,Netherlands,Morocco,2,2,Morocco
+Gustavo,knockout,76,Round of 32,2026-06-29,12:00 PM,CT,Houston Stadium,NRG Stadium,"Houston, Texas",United States,Brazil,Japan,3,1,
+Gustavo,knockout,77,Round of 32,2026-06-30,5:00 PM,ET,New York New Jersey Stadium,MetLife Stadium,"East Rutherford, New Jersey",United States,France,Sweden,3,1,
+Gustavo,knockout,78,Round of 32,2026-06-30,12:00 PM,CT,Dallas Stadium,AT&T Stadium,"Arlington, Texas",United States,Ivory Coast,Norway,2,1,
+Gustavo,knockout,79,Round of 32,2026-06-30,7:00 PM,CT,Mexico City Stadium,Estadio Banorte,Mexico City,Mexico,Mexico,Ecuador,1,1,Ecuador
+Gustavo,knockout,80,Round of 32,2026-07-01,12:00 PM,ET,Atlanta Stadium,Mercedes-Benz Stadium,"Atlanta, Georgia",United States,England,DR Congo,2,1,
+Gustavo,knockout,81,Round of 32,2026-07-01,5:00 PM,PT,San Francisco Bay Area Stadium,Levi's Stadium,"Santa Clara, California",United States,United States,Bosnia and Herzegovina,2,1,
+Gustavo,knockout,82,Round of 32,2026-07-01,1:00 PM,PT,Seattle Stadium,Lumen Field,"Seattle, Washington",United States,Belgium,Senegal,2,2,Senegal
+Gustavo,knockout,83,Round of 32,2026-07-02,7:00 PM,ET,Toronto Stadium,BMO Field,Toronto,Canada,Croatia,Portugal,1,2,
+Gustavo,knockout,84,Round of 32,2026-07-02,12:00 PM,PT,Los Angeles Stadium,SoFi Stadium,"Inglewood, California",United States,Spain,Austria,3,1,
+Gustavo,knockout,85,Round of 32,2026-07-02,8:00 PM,PT,BC Place Vancouver,BC Place,Vancouver,Canada,Switzerland,Algeria,2,2,Switzerland
+Gustavo,knockout,86,Round of 32,2026-07-03,6:00 PM,ET,Miami Stadium,Hard Rock Stadium,"Miami Gardens, Florida",United States,Argentina,Cape Verde,3,0,
+Gustavo,knockout,87,Round of 32,2026-07-03,8:30 PM,CT,Kansas City Stadium,Arrowhead Stadium,"Kansas City, Missouri",United States,Colombia,Ghana,3,1,
+Gustavo,knockout,88,Round of 32,2026-07-03,1:00 PM,CT,Dallas Stadium,AT&T Stadium,"Arlington, Texas",United States,Australia,Egypt,1,1,Egypt
+Gustavo,knockout,89,Round of 16,2026-07-04,5:00 PM,ET,Philadelphia Stadium,Lincoln Financial Field,"Philadelphia, Pennsylvania",United States,Germany,France,1,2,
+Gustavo,knockout,90,Round of 16,2026-07-04,12:00 PM,CT,Houston Stadium,NRG Stadium,"Houston, Texas",United States,Canada,Morocco,1,2,
+Gustavo,knockout,91,Round of 16,2026-07-05,4:00 PM,ET,New York New Jersey Stadium,MetLife Stadium,"East Rutherford, New Jersey",United States,Brazil,Ivory Coast,3,1,
+Gustavo,knockout,92,Round of 16,2026-07-05,6:00 PM,CT,Mexico City Stadium,Estadio Banorte,Mexico City,Mexico,Ecuador,England,1,1,Ecuador
+Gustavo,knockout,93,Round of 16,2026-07-06,2:00 PM,CT,Dallas Stadium,AT&T Stadium,"Arlington, Texas",United States,Portugal,Spain,1,2,
+Gustavo,knockout,94,Round of 16,2026-07-06,5:00 PM,PT,Seattle Stadium,Lumen Field,"Seattle, Washington",United States,United States,Senegal,2,1,
+Gustavo,knockout,95,Round of 16,2026-07-07,12:00 PM,ET,Atlanta Stadium,Mercedes-Benz Stadium,"Atlanta, Georgia",United States,Argentina,Egypt,2,1,
+Gustavo,knockout,96,Round of 16,2026-07-07,4:00 PM,PT,BC Place Vancouver,BC Place,Vancouver,Canada,Switzerland,Colombia,1,2,
+Gustavo,knockout,97,Quarterfinal,2026-07-09,4:00 PM,ET,Boston Stadium,Gillette Stadium,"Foxborough, Massachusetts",United States,France,Morocco,2,1,
+Gustavo,knockout,98,Quarterfinal,2026-07-10,12:00 PM,PT,Los Angeles Stadium,SoFi Stadium,"Inglewood, California",United States,Spain,United States,3,1,
+Gustavo,knockout,99,Quarterfinal,2026-07-11,5:00 PM,ET,Miami Stadium,Hard Rock Stadium,"Miami Gardens, Florida",United States,Brazil,Ecuador,2,1,
+Gustavo,knockout,100,Quarterfinal,2026-07-11,8:00 PM,CT,Kansas City Stadium,Arrowhead Stadium,"Kansas City, Missouri",United States,Argentina,Colombia,3,2,
+Gustavo,knockout,101,Semifinal,2026-07-14,2:00 PM,CT,Dallas Stadium,AT&T Stadium,"Arlington, Texas",United States,France,Spain,3,2,
+Gustavo,knockout,102,Semifinal,2026-07-15,3:00 PM,ET,Atlanta Stadium,Mercedes-Benz Stadium,"Atlanta, Georgia",United States,Brazil,Argentina,3,2,
+Gustavo,knockout,103,Third-place match,2026-07-18,5:00 PM,ET,Miami Stadium,Hard Rock Stadium,"Miami Gardens, Florida",United States,Spain,Argentina,1,2,
+Gustavo,knockout,104,Final,2026-07-19,3:00 PM,ET,New York New Jersey Stadium,MetLife Stadium,"East Rutherford, New Jersey",United States,France,Brazil,2,2,Brazil
