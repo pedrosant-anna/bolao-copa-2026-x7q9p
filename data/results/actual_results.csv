@@ -1,105 +1,105 @@
 match_id,source_match_id,source,stage,group,date,time,team1,team2,team1_goals,team2_goals,advance_team,status,played
-1,760415,espn,Group Stage,A,2026-06-11,15:00:00,Mexico,South Africa,2,0,Mexico,STATUS_FULL_TIME,TRUE
-2,760414,espn,Group Stage,A,2026-06-11,22:00:00,South Korea,Czechia,2,1,South Korea,STATUS_FULL_TIME,TRUE
-3,760416,espn,Group Stage,B,2026-06-12,15:00:00,Canada,Bosnia and Herzegovina,1,1,NA,STATUS_FULL_TIME,TRUE
-4,760417,espn,Group Stage,D,2026-06-12,21:00:00,United States,Paraguay,4,1,United States,STATUS_FULL_TIME,TRUE
-5,760420,espn,Group Stage,B,2026-06-13,15:00:00,Qatar,Switzerland,1,1,NA,STATUS_FULL_TIME,TRUE
-6,760419,espn,Group Stage,C,2026-06-13,18:00:00,Brazil,Morocco,1,1,NA,STATUS_FULL_TIME,TRUE
-7,760418,espn,Group Stage,C,2026-06-13,21:00:00,Haiti,Scotland,0,1,Scotland,STATUS_FULL_TIME,TRUE
-8,760421,espn,Group Stage,D,2026-06-13,00:00:00,Australia,Türkiye,2,0,Australia,STATUS_FULL_TIME,TRUE
-9,760422,espn,Group Stage,E,2026-06-14,13:00:00,Germany,Curaçao,7,1,Germany,STATUS_FULL_TIME,TRUE
-10,760425,espn,Group Stage,F,2026-06-14,16:00:00,Netherlands,Japan,2,2,NA,STATUS_FULL_TIME,TRUE
-11,760423,espn,Group Stage,E,2026-06-14,19:00:00,Ivory Coast,Ecuador,1,0,Ivory Coast,STATUS_FULL_TIME,TRUE
-12,760424,espn,Group Stage,F,2026-06-14,22:00:00,Tunisia,Sweden,1,5,Sweden,STATUS_FULL_TIME,TRUE
-13,760428,espn,Group Stage,H,2026-06-15,12:00:00,Spain,Cape Verde,0,0,NA,STATUS_FULL_TIME,TRUE
-14,760426,espn,Group Stage,G,2026-06-15,15:00:00,Belgium,Egypt,1,1,NA,STATUS_FULL_TIME,TRUE
-15,760429,espn,Group Stage,H,2026-06-15,18:00:00,Saudi Arabia,Uruguay,1,1,NA,STATUS_FULL_TIME,TRUE
-16,760427,espn,Group Stage,G,2026-06-15,21:00:00,Iran,New Zealand,2,2,NA,STATUS_FULL_TIME,TRUE
-17,760432,espn,Group Stage,I,2026-06-16,15:00:00,France,Senegal,3,1,France,STATUS_FULL_TIME,TRUE
-18,760430,espn,Group Stage,I,2026-06-16,18:00:00,Iraq,Norway,1,4,Norway,STATUS_FULL_TIME,TRUE
-19,760433,espn,Group Stage,J,2026-06-16,21:00:00,Argentina,Algeria,3,0,Argentina,STATUS_FULL_TIME,TRUE
-20,760431,espn,Group Stage,J,2026-06-16,00:00:00,Austria,Jordan,3,1,Austria,STATUS_FULL_TIME,TRUE
-21,760435,espn,Group Stage,K,2026-06-17,13:00:00,Portugal,Congo DR,1,1,NA,STATUS_FULL_TIME,TRUE
-22,760437,espn,Group Stage,L,2026-06-17,16:00:00,England,Croatia,4,2,England,STATUS_FULL_TIME,TRUE
-23,760434,espn,Group Stage,L,2026-06-17,19:00:00,Ghana,Panama,1,0,Ghana,STATUS_FULL_TIME,TRUE
-24,760436,espn,Group Stage,K,2026-06-17,22:00:00,Uzbekistan,Colombia,1,3,Colombia,STATUS_FULL_TIME,TRUE
-25,760438,espn,Group Stage,A,2026-06-18,12:00:00,Czechia,South Africa,1,1,NA,STATUS_FULL_TIME,TRUE
-26,760439,espn,Group Stage,B,2026-06-18,15:00:00,Switzerland,Bosnia and Herzegovina,4,1,Switzerland,STATUS_FULL_TIME,TRUE
-27,760440,espn,Group Stage,B,2026-06-18,18:00:00,Canada,Qatar,6,0,Canada,STATUS_FULL_TIME,TRUE
-28,760441,espn,Group Stage,A,2026-06-18,21:00:00,Mexico,South Korea,1,0,Mexico,STATUS_FULL_TIME,TRUE
-29,760442,espn,Group Stage,D,2026-06-19,15:00:00,United States,Australia,2,0,United States,STATUS_FULL_TIME,TRUE
-30,760445,espn,Group Stage,C,2026-06-19,15:00:00,Scotland,Morocco,0,1,Morocco,STATUS_FULL_TIME,TRUE
-31,760444,espn,Group Stage,C,2026-06-19,21:00:00,Brazil,Haiti,3,0,Brazil,STATUS_FULL_TIME,TRUE
-32,760443,espn,Group Stage,D,2026-06-19,00:00:00,Türkiye,Paraguay,0,1,Paraguay,STATUS_FULL_TIME,TRUE
-33,760447,espn,Group Stage,F,2026-06-20,13:00:00,Netherlands,Sweden,5,1,Netherlands,STATUS_FULL_TIME,TRUE
-34,760448,espn,Group Stage,E,2026-06-20,16:00:00,Germany,Ivory Coast,2,1,Germany,STATUS_FULL_TIME,TRUE
-35,760446,espn,Group Stage,E,2026-06-20,20:00:00,Ecuador,Curaçao,0,0,NA,STATUS_FULL_TIME,TRUE
-36,760449,espn,Group Stage,F,2026-06-20,00:00:00,Tunisia,Japan,0,4,Japan,STATUS_FULL_TIME,TRUE
-37,760453,espn,Group Stage,H,2026-06-21,12:00:00,Spain,Saudi Arabia,4,0,Spain,STATUS_FULL_TIME,TRUE
-38,760451,espn,Group Stage,G,2026-06-21,15:00:00,Belgium,Iran,0,0,NA,STATUS_FULL_TIME,TRUE
-39,760450,espn,Group Stage,H,2026-06-21,18:00:00,Uruguay,Cape Verde,2,2,NA,STATUS_FULL_TIME,TRUE
-40,760452,espn,Group Stage,G,2026-06-21,21:00:00,New Zealand,Egypt,1,3,Egypt,STATUS_FULL_TIME,TRUE
-41,760456,espn,Group Stage,J,2026-06-22,13:00:00,Argentina,Austria,2,0,Argentina,STATUS_FULL_TIME,TRUE
-42,760457,espn,Group Stage,I,2026-06-22,17:00:00,France,Iraq,3,0,France,STATUS_FULL_TIME,TRUE
-43,760454,espn,Group Stage,I,2026-06-22,20:00:00,Norway,Senegal,3,2,Norway,STATUS_FULL_TIME,TRUE
-44,760455,espn,Group Stage,J,2026-06-22,23:00:00,Jordan,Algeria,1,2,Algeria,STATUS_FULL_TIME,TRUE
-45,760461,espn,Group Stage,K,2026-06-23,13:00:00,Portugal,Uzbekistan,5,0,Portugal,STATUS_FULL_TIME,TRUE
-46,760458,espn,Group Stage,L,2026-06-23,16:00:00,England,Ghana,0,0,NA,STATUS_FULL_TIME,TRUE
-47,760460,espn,Group Stage,L,2026-06-23,19:00:00,Panama,Croatia,0,1,Croatia,STATUS_FULL_TIME,TRUE
-48,760459,espn,Group Stage,K,2026-06-23,22:00:00,Colombia,Congo DR,1,0,Colombia,STATUS_FULL_TIME,TRUE
-49,760463,espn,Group Stage,B,2026-06-24,15:00:00,Switzerland,Canada,2,1,Switzerland,STATUS_FULL_TIME,TRUE
-50,760462,espn,Group Stage,B,2026-06-24,15:00:00,Bosnia and Herzegovina,Qatar,3,1,Bosnia and Herzegovina,STATUS_FULL_TIME,TRUE
-51,760465,espn,Group Stage,C,2026-06-24,18:00:00,Brazil,Scotland,3,0,Brazil,STATUS_FULL_TIME,TRUE
-52,760464,espn,Group Stage,C,2026-06-24,18:00:00,Morocco,Haiti,4,2,Morocco,STATUS_FULL_TIME,TRUE
-53,760467,espn,Group Stage,A,2026-06-24,21:00:00,Mexico,Czechia,3,0,Mexico,STATUS_FULL_TIME,TRUE
-54,760466,espn,Group Stage,A,2026-06-24,21:00:00,South Korea,South Africa,0,1,South Africa,STATUS_FULL_TIME,TRUE
-55,760468,espn,Group Stage,E,2026-06-25,16:00:00,Ecuador,Germany,2,1,Ecuador,STATUS_FULL_TIME,TRUE
-56,760473,espn,Group Stage,E,2026-06-25,16:00:00,Curaçao,Ivory Coast,0,2,Ivory Coast,STATUS_FULL_TIME,TRUE
-57,760472,espn,Group Stage,F,2026-06-25,19:00:00,Tunisia,Netherlands,1,3,Netherlands,STATUS_FULL_TIME,TRUE
-58,760471,espn,Group Stage,F,2026-06-25,19:00:00,Japan,Sweden,1,1,NA,STATUS_FULL_TIME,TRUE
-59,760470,espn,Group Stage,D,2026-06-25,22:00:00,United States,Türkiye,2,3,Türkiye,STATUS_FULL_TIME,TRUE
-60,760469,espn,Group Stage,D,2026-06-25,22:00:00,Paraguay,Australia,0,0,NA,STATUS_FULL_TIME,TRUE
-61,760475,espn,Group Stage,I,2026-06-26,15:00:00,Norway,France,1,4,France,STATUS_FULL_TIME,TRUE
-62,760474,espn,Group Stage,I,2026-06-26,15:00:00,Senegal,Iraq,5,0,Senegal,STATUS_FULL_TIME,TRUE
-63,760479,espn,Group Stage,H,2026-06-26,20:00:00,Uruguay,Spain,0,1,Spain,STATUS_FULL_TIME,TRUE
-64,760478,espn,Group Stage,H,2026-06-26,20:00:00,Cape Verde,Saudi Arabia,0,0,NA,STATUS_FULL_TIME,TRUE
-65,760477,espn,Group Stage,G,2026-06-26,23:00:00,New Zealand,Belgium,1,5,Belgium,STATUS_FULL_TIME,TRUE
-66,760476,espn,Group Stage,G,2026-06-26,23:00:00,Egypt,Iran,1,1,NA,STATUS_FULL_TIME,TRUE
-67,760485,espn,Group Stage,L,2026-06-27,17:00:00,Panama,England,0,2,England,STATUS_FULL_TIME,TRUE
-68,760480,espn,Group Stage,L,2026-06-27,17:00:00,Croatia,Ghana,2,1,Croatia,STATUS_FULL_TIME,TRUE
-69,760481,espn,Group Stage,K,2026-06-27,19:30:00,Colombia,Portugal,0,0,NA,STATUS_FULL_TIME,TRUE
-70,760482,espn,Group Stage,K,2026-06-27,19:30:00,Congo DR,Uzbekistan,3,1,Congo DR,STATUS_FULL_TIME,TRUE
-71,760483,espn,Group Stage,J,2026-06-27,22:00:00,Argentina,Jordan,3,1,Argentina,STATUS_FULL_TIME,TRUE
-72,760484,espn,Group Stage,J,2026-06-27,22:00:00,Algeria,Austria,3,3,NA,STATUS_FULL_TIME,TRUE
-73,NA,espn,Round of 32,NA,2026-06-28,15:00:00,Group A runner-up,Group B runner-up,NA,NA,NA,SCHEDULED,FALSE
-74,NA,espn,Round of 32,NA,2026-06-29,13:00:00,Group C winner,Group F runner-up,NA,NA,NA,SCHEDULED,FALSE
-75,NA,espn,Round of 32,NA,2026-06-29,16:30:00,Group E winner,Group A/B/C/D/F third place,NA,NA,NA,SCHEDULED,FALSE
-76,NA,espn,Round of 32,NA,2026-06-29,21:00:00,Group F winner,Group C runner-up,NA,NA,NA,SCHEDULED,FALSE
-77,NA,espn,Round of 32,NA,2026-06-30,13:00:00,Group E runner-up,Group I runner-up,NA,NA,NA,SCHEDULED,FALSE
-78,NA,espn,Round of 32,NA,2026-06-30,17:00:00,Group I winner,Group C/D/F/G/H third place,NA,NA,NA,SCHEDULED,FALSE
-79,NA,espn,Round of 32,NA,2026-06-30,21:00:00,Group A winner,Group C/E/F/H/I third place,NA,NA,NA,SCHEDULED,FALSE
-80,NA,espn,Round of 32,NA,2026-07-01,12:00:00,Group L winner,Group E/H/I/J/K third place,NA,NA,NA,SCHEDULED,FALSE
-81,NA,espn,Round of 32,NA,2026-07-01,16:00:00,Group G winner,Group A/E/H/I/J third place,NA,NA,NA,SCHEDULED,FALSE
-82,NA,espn,Round of 32,NA,2026-07-01,20:00:00,Group D winner,Group B/E/F/I/J third place,NA,NA,NA,SCHEDULED,FALSE
-83,NA,espn,Round of 32,NA,2026-07-02,15:00:00,Group H winner,Group J runner-up,NA,NA,NA,SCHEDULED,FALSE
-84,NA,espn,Round of 32,NA,2026-07-02,19:00:00,Group K runner-up,Group L runner-up,NA,NA,NA,SCHEDULED,FALSE
-85,NA,espn,Round of 32,NA,2026-07-02,23:00:00,Group B winner,Group D/E/I/J/L third place,NA,NA,NA,SCHEDULED,FALSE
-86,NA,espn,Round of 32,NA,2026-07-03,14:00:00,Group D runner-up,Group G runner-up,NA,NA,NA,SCHEDULED,FALSE
-87,NA,espn,Round of 32,NA,2026-07-03,18:00:00,Group J winner,Group H runner-up,NA,NA,NA,SCHEDULED,FALSE
-88,NA,espn,Round of 32,NA,2026-07-03,21:30:00,Group K winner,Group D/E/I/J/L third place,NA,NA,NA,SCHEDULED,FALSE
-89,NA,espn,Round of 16,NA,2026-07-04,13:00:00,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
-90,NA,espn,Round of 16,NA,2026-07-04,17:00:00,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
-91,NA,espn,Round of 16,NA,2026-07-05,16:00:00,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
-92,NA,espn,Round of 16,NA,2026-07-05,20:00:00,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
-93,NA,espn,Round of 16,NA,2026-07-06,15:00:00,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
-94,NA,espn,Round of 16,NA,2026-07-06,20:00:00,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
-95,NA,espn,Round of 16,NA,2026-07-07,12:00:00,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
-96,NA,espn,Round of 16,NA,2026-07-07,16:00:00,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
-97,NA,espn,Quarterfinal,NA,2026-07-09,16:00:00,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
-98,NA,espn,Quarterfinal,NA,2026-07-10,15:00:00,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
-99,NA,espn,Quarterfinal,NA,2026-07-11,17:00:00,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
-100,NA,espn,Quarterfinal,NA,2026-07-11,21:00:00,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
-101,NA,espn,Semifinal,NA,2026-07-14,15:00:00,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
-102,NA,espn,Semifinal,NA,2026-07-15,15:00:00,TBD,TBD,NA,NA,NA,SCHEDULED,FALSE
-103,NA,espn,Third-place match,NA,2026-07-18,17:00:00,Loser match 101,Loser match 102,NA,NA,NA,SCHEDULED,FALSE
-104,NA,espn,Final,NA,2026-07-19,15:00:00,Winner match 101,Winner match 102,NA,NA,NA,SCHEDULED,FALSE
+1,NA,openfootball,Matchday 1,Group A,2026-06-11,13:00 UTC-6,Mexico,South Africa,2,0,Mexico,FINISHED,TRUE
+2,NA,openfootball,Matchday 1,Group A,2026-06-11,20:00 UTC-6,South Korea,Czech Republic,2,1,South Korea,FINISHED,TRUE
+3,NA,openfootball,Matchday 8,Group A,2026-06-18,12:00 UTC-4,Czech Republic,South Africa,1,1,NA,FINISHED,TRUE
+4,NA,openfootball,Matchday 8,Group A,2026-06-18,19:00 UTC-6,Mexico,South Korea,1,0,Mexico,FINISHED,TRUE
+5,NA,openfootball,Matchday 14,Group A,2026-06-24,19:00 UTC-6,Czech Republic,Mexico,0,3,Mexico,FINISHED,TRUE
+6,NA,openfootball,Matchday 14,Group A,2026-06-24,19:00 UTC-6,South Africa,South Korea,1,0,South Africa,FINISHED,TRUE
+7,NA,openfootball,Matchday 2,Group B,2026-06-12,15:00 UTC-4,Canada,Bosnia & Herzegovina,1,1,NA,FINISHED,TRUE
+8,NA,openfootball,Matchday 3,Group B,2026-06-13,12:00 UTC-7,Qatar,Switzerland,1,1,NA,FINISHED,TRUE
+9,NA,openfootball,Matchday 8,Group B,2026-06-18,12:00 UTC-7,Switzerland,Bosnia & Herzegovina,4,1,Switzerland,FINISHED,TRUE
+10,NA,openfootball,Matchday 8,Group B,2026-06-18,15:00 UTC-7,Canada,Qatar,6,0,Canada,FINISHED,TRUE
+11,NA,openfootball,Matchday 14,Group B,2026-06-24,12:00 UTC-7,Switzerland,Canada,2,1,Switzerland,FINISHED,TRUE
+12,NA,openfootball,Matchday 14,Group B,2026-06-24,12:00 UTC-7,Bosnia & Herzegovina,Qatar,3,1,Bosnia & Herzegovina,FINISHED,TRUE
+13,NA,openfootball,Matchday 3,Group C,2026-06-13,18:00 UTC-4,Brazil,Morocco,1,1,NA,FINISHED,TRUE
+14,NA,openfootball,Matchday 3,Group C,2026-06-13,21:00 UTC-4,Haiti,Scotland,0,1,Scotland,FINISHED,TRUE
+15,NA,openfootball,Matchday 9,Group C,2026-06-19,18:00 UTC-4,Scotland,Morocco,0,1,Morocco,FINISHED,TRUE
+16,NA,openfootball,Matchday 9,Group C,2026-06-19,20:30 UTC-4,Brazil,Haiti,3,0,Brazil,FINISHED,TRUE
+17,NA,openfootball,Matchday 14,Group C,2026-06-24,18:00 UTC-4,Scotland,Brazil,0,3,Brazil,FINISHED,TRUE
+18,NA,openfootball,Matchday 14,Group C,2026-06-24,18:00 UTC-4,Morocco,Haiti,4,2,Morocco,FINISHED,TRUE
+19,NA,openfootball,Matchday 2,Group D,2026-06-12,18:00 UTC-7,USA,Paraguay,4,1,USA,FINISHED,TRUE
+20,NA,openfootball,Matchday 3,Group D,2026-06-13,21:00 UTC-7,Australia,Turkey,2,0,Australia,FINISHED,TRUE
+21,NA,openfootball,Matchday 9,Group D,2026-06-19,12:00 UTC-7,USA,Australia,2,0,USA,FINISHED,TRUE
+22,NA,openfootball,Matchday 9,Group D,2026-06-19,20:00 UTC-7,Turkey,Paraguay,0,1,Paraguay,FINISHED,TRUE
+23,NA,openfootball,Matchday 15,Group D,2026-06-25,19:00 UTC-7,Turkey,USA,3,2,Turkey,FINISHED,TRUE
+24,NA,openfootball,Matchday 15,Group D,2026-06-25,19:00 UTC-7,Paraguay,Australia,0,0,NA,FINISHED,TRUE
+25,NA,openfootball,Matchday 4,Group E,2026-06-14,12:00 UTC-5,Germany,Curaçao,7,1,Germany,FINISHED,TRUE
+26,NA,openfootball,Matchday 4,Group E,2026-06-14,19:00 UTC-4,Ivory Coast,Ecuador,1,0,Ivory Coast,FINISHED,TRUE
+27,NA,openfootball,Matchday 10,Group E,2026-06-20,16:00 UTC-4,Germany,Ivory Coast,2,1,Germany,FINISHED,TRUE
+28,NA,openfootball,Matchday 10,Group E,2026-06-20,19:00 UTC-5,Ecuador,Curaçao,0,0,NA,FINISHED,TRUE
+29,NA,openfootball,Matchday 15,Group E,2026-06-25,16:00 UTC-4,Curaçao,Ivory Coast,0,2,Ivory Coast,FINISHED,TRUE
+30,NA,openfootball,Matchday 15,Group E,2026-06-25,16:00 UTC-4,Ecuador,Germany,2,1,Ecuador,FINISHED,TRUE
+31,NA,openfootball,Matchday 4,Group F,2026-06-14,15:00 UTC-5,Netherlands,Japan,2,2,NA,FINISHED,TRUE
+32,NA,openfootball,Matchday 4,Group F,2026-06-14,20:00 UTC-6,Sweden,Tunisia,5,1,Sweden,FINISHED,TRUE
+33,NA,openfootball,Matchday 10,Group F,2026-06-20,12:00 UTC-5,Netherlands,Sweden,5,1,Netherlands,FINISHED,TRUE
+34,NA,openfootball,Matchday 10,Group F,2026-06-20,22:00 UTC-6,Tunisia,Japan,0,4,Japan,FINISHED,TRUE
+35,NA,openfootball,Matchday 15,Group F,2026-06-25,18:00 UTC-5,Japan,Sweden,1,1,NA,FINISHED,TRUE
+36,NA,openfootball,Matchday 15,Group F,2026-06-25,18:00 UTC-5,Tunisia,Netherlands,1,3,Netherlands,FINISHED,TRUE
+37,NA,openfootball,Matchday 5,Group G,2026-06-15,12:00 UTC-7,Belgium,Egypt,1,1,NA,FINISHED,TRUE
+38,NA,openfootball,Matchday 5,Group G,2026-06-15,18:00 UTC-7,Iran,New Zealand,2,2,NA,FINISHED,TRUE
+39,NA,openfootball,Matchday 11,Group G,2026-06-21,12:00 UTC-7,Belgium,Iran,0,0,NA,FINISHED,TRUE
+40,NA,openfootball,Matchday 11,Group G,2026-06-21,18:00 UTC-7,New Zealand,Egypt,1,3,Egypt,FINISHED,TRUE
+41,NA,openfootball,Matchday 16,Group G,2026-06-26,20:00 UTC-7,Egypt,Iran,1,1,NA,FINISHED,TRUE
+42,NA,openfootball,Matchday 16,Group G,2026-06-26,20:00 UTC-7,New Zealand,Belgium,1,5,Belgium,FINISHED,TRUE
+43,NA,openfootball,Matchday 5,Group H,2026-06-15,12:00 UTC-4,Spain,Cape Verde,0,0,NA,FINISHED,TRUE
+44,NA,openfootball,Matchday 5,Group H,2026-06-15,18:00 UTC-4,Saudi Arabia,Uruguay,1,1,NA,FINISHED,TRUE
+45,NA,openfootball,Matchday 11,Group H,2026-06-21,12:00 UTC-4,Spain,Saudi Arabia,4,0,Spain,FINISHED,TRUE
+46,NA,openfootball,Matchday 11,Group H,2026-06-21,18:00 UTC-4,Uruguay,Cape Verde,2,2,NA,FINISHED,TRUE
+47,NA,openfootball,Matchday 16,Group H,2026-06-26,19:00 UTC-5,Cape Verde,Saudi Arabia,0,0,NA,FINISHED,TRUE
+48,NA,openfootball,Matchday 16,Group H,2026-06-26,18:00 UTC-6,Uruguay,Spain,0,1,Spain,FINISHED,TRUE
+49,NA,openfootball,Matchday 6,Group I,2026-06-16,15:00 UTC-4,France,Senegal,3,1,France,FINISHED,TRUE
+50,NA,openfootball,Matchday 6,Group I,2026-06-16,18:00 UTC-4,Iraq,Norway,1,4,Norway,FINISHED,TRUE
+51,NA,openfootball,Matchday 12,Group I,2026-06-22,17:00 UTC-4,France,Iraq,3,0,France,FINISHED,TRUE
+52,NA,openfootball,Matchday 12,Group I,2026-06-22,20:00 UTC-4,Norway,Senegal,3,2,Norway,FINISHED,TRUE
+53,NA,openfootball,Matchday 16,Group I,2026-06-26,15:00 UTC-4,Norway,France,1,4,France,FINISHED,TRUE
+54,NA,openfootball,Matchday 16,Group I,2026-06-26,15:00 UTC-4,Senegal,Iraq,5,0,Senegal,FINISHED,TRUE
+55,NA,openfootball,Matchday 6,Group J,2026-06-16,20:00 UTC-5,Argentina,Algeria,3,0,Argentina,FINISHED,TRUE
+56,NA,openfootball,Matchday 6,Group J,2026-06-16,21:00 UTC-7,Austria,Jordan,3,1,Austria,FINISHED,TRUE
+57,NA,openfootball,Matchday 12,Group J,2026-06-22,12:00 UTC-5,Argentina,Austria,2,0,Argentina,FINISHED,TRUE
+58,NA,openfootball,Matchday 12,Group J,2026-06-22,20:00 UTC-7,Jordan,Algeria,1,2,Algeria,FINISHED,TRUE
+59,NA,openfootball,Matchday 17,Group J,2026-06-27,21:00 UTC-5,Algeria,Austria,3,3,NA,FINISHED,TRUE
+60,NA,openfootball,Matchday 17,Group J,2026-06-27,21:00 UTC-5,Jordan,Argentina,1,3,Argentina,FINISHED,TRUE
+61,NA,openfootball,Matchday 7,Group K,2026-06-17,12:00 UTC-5,Portugal,DR Congo,1,1,NA,FINISHED,TRUE
+62,NA,openfootball,Matchday 7,Group K,2026-06-17,20:00 UTC-6,Uzbekistan,Colombia,1,3,Colombia,FINISHED,TRUE
+63,NA,openfootball,Matchday 13,Group K,2026-06-23,12:00 UTC-5,Portugal,Uzbekistan,5,0,Portugal,FINISHED,TRUE
+64,NA,openfootball,Matchday 13,Group K,2026-06-23,20:00 UTC-6,Colombia,DR Congo,1,0,Colombia,FINISHED,TRUE
+65,NA,openfootball,Matchday 17,Group K,2026-06-27,19:30 UTC-4,Colombia,Portugal,0,0,NA,FINISHED,TRUE
+66,NA,openfootball,Matchday 17,Group K,2026-06-27,19:30 UTC-4,DR Congo,Uzbekistan,3,1,DR Congo,FINISHED,TRUE
+67,NA,openfootball,Matchday 7,Group L,2026-06-17,15:00 UTC-5,England,Croatia,4,2,England,FINISHED,TRUE
+68,NA,openfootball,Matchday 7,Group L,2026-06-17,19:00 UTC-4,Ghana,Panama,1,0,Ghana,FINISHED,TRUE
+69,NA,openfootball,Matchday 13,Group L,2026-06-23,16:00 UTC-4,England,Ghana,0,0,NA,FINISHED,TRUE
+70,NA,openfootball,Matchday 13,Group L,2026-06-23,19:00 UTC-4,Panama,Croatia,0,1,Croatia,FINISHED,TRUE
+71,NA,openfootball,Matchday 17,Group L,2026-06-27,17:00 UTC-4,Panama,England,0,2,England,FINISHED,TRUE
+72,NA,openfootball,Matchday 17,Group L,2026-06-27,17:00 UTC-4,Croatia,Ghana,2,1,Croatia,FINISHED,TRUE
+73,NA,openfootball,Round of 32,NA,2026-06-28,12:00 UTC-7,South Africa,Canada,0,1,Canada,FINISHED,TRUE
+74,NA,openfootball,Round of 32,NA,2026-06-29,16:30 UTC-4,Germany,Paraguay,1,1,Paraguay,FINISHED,TRUE
+75,NA,openfootball,Round of 32,NA,2026-06-29,19:00 UTC-6,Netherlands,Morocco,1,1,Morocco,FINISHED,TRUE
+76,NA,openfootball,Round of 32,NA,2026-06-29,12:00 UTC-5,Brazil,Japan,2,1,Brazil,FINISHED,TRUE
+77,NA,openfootball,Round of 32,NA,2026-06-30,17:00 UTC-4,France,Sweden,3,0,France,FINISHED,TRUE
+78,NA,openfootball,Round of 32,NA,2026-06-30,12:00 UTC-5,Ivory Coast,Norway,1,2,Norway,FINISHED,TRUE
+79,NA,openfootball,Round of 32,NA,2026-06-30,19:00 UTC-6,Mexico,Ecuador,2,0,Mexico,FINISHED,TRUE
+80,NA,openfootball,Round of 32,NA,2026-07-01,12:00 UTC-4,England,DR Congo,2,1,England,FINISHED,TRUE
+81,NA,openfootball,Round of 32,NA,2026-07-01,17:00 UTC-7,USA,Bosnia & Herzegovina,2,0,USA,FINISHED,TRUE
+82,NA,openfootball,Round of 32,NA,2026-07-01,13:00 UTC-7,Belgium,Senegal,2,2,Belgium,FINISHED,TRUE
+83,NA,openfootball,Round of 32,NA,2026-07-02,19:00 UTC-4,Portugal,Croatia,2,1,Portugal,FINISHED,TRUE
+84,NA,openfootball,Round of 32,NA,2026-07-02,12:00 UTC-7,Spain,Austria,3,0,Spain,FINISHED,TRUE
+85,NA,openfootball,Round of 32,NA,2026-07-02,20:00 UTC-7,Switzerland,Algeria,2,0,Switzerland,FINISHED,TRUE
+86,NA,openfootball,Round of 32,NA,2026-07-03,18:00 UTC-4,Argentina,Cape Verde,1,1,Argentina,FINISHED,TRUE
+87,NA,openfootball,Round of 32,NA,2026-07-03,20:30 UTC-5,Colombia,Ghana,1,0,Colombia,FINISHED,TRUE
+88,NA,openfootball,Round of 32,NA,2026-07-03,13:00 UTC-5,Australia,Egypt,1,1,Egypt,FINISHED,TRUE
+89,NA,openfootball,Round of 16,NA,2026-07-04,17:00 UTC-4,Paraguay,France,0,1,France,FINISHED,TRUE
+90,NA,openfootball,Round of 16,NA,2026-07-04,12:00 UTC-5,Canada,Morocco,0,3,Morocco,FINISHED,TRUE
+91,NA,openfootball,Round of 16,NA,2026-07-05,16:00 UTC-4,Brazil,Norway,1,2,Norway,FINISHED,TRUE
+92,NA,openfootball,Round of 16,NA,2026-07-05,18:00 UTC-6,Mexico,England,2,3,England,FINISHED,TRUE
+93,NA,openfootball,Round of 16,NA,2026-07-06,14:00 UTC-5,Portugal,Spain,0,1,Spain,FINISHED,TRUE
+94,NA,openfootball,Round of 16,NA,2026-07-06,17:00 UTC-7,USA,Belgium,1,4,Belgium,FINISHED,TRUE
+95,NA,openfootball,Round of 16,NA,2026-07-07,12:00 UTC-4,Argentina,Egypt,3,2,Argentina,FINISHED,TRUE
+96,NA,openfootball,Round of 16,NA,2026-07-07,13:00 UTC-7,Switzerland,Colombia,0,0,Switzerland,FINISHED,TRUE
+97,NA,openfootball,Quarter-final,NA,2026-07-09,16:00 UTC-4,France,Morocco,2,0,France,FINISHED,TRUE
+98,NA,openfootball,Quarter-final,NA,2026-07-10,12:00 UTC-7,Spain,Belgium,2,1,Spain,FINISHED,TRUE
+99,NA,openfootball,Quarter-final,NA,2026-07-11,17:00 UTC-4,Norway,England,1,1,England,FINISHED,TRUE
+100,NA,openfootball,Quarter-final,NA,2026-07-11,20:00 UTC-5,Argentina,Switzerland,1,1,Argentina,FINISHED,TRUE
+101,NA,openfootball,Semi-final,NA,2026-07-14,14:00 UTC-5,France,Spain,0,2,Spain,FINISHED,TRUE
+102,NA,openfootball,Semi-final,NA,2026-07-15,15:00 UTC-4,England,Argentina,1,2,Argentina,FINISHED,TRUE
+103,NA,openfootball,Match for third place,NA,2026-07-18,17:00 UTC-4,France,England,4,6,England,FINISHED,TRUE
+104,NA,openfootball,Final,NA,2026-07-19,15:00 UTC-4,Spain,Argentina,0,0,Spain,FINISHED,TRUE
